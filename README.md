@@ -435,7 +435,7 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 
 ### Trend Systems  `D07-F02`
 
-- 🟢 [MACD](https://thefintechbuilder.com/technical-indicators/trend-systems/macd/)  `D07-F02-A01`
+- 🟢 [MACD](https://thefintechbuilder.com/technical-indicators/trend-systems/macd/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-MACD-Moving-Average-Convergence-Divergence-algorithm)  `D07-F02-A01`
 - ⚪ Percentage Price Oscillator  `D07-F02-A02`
 - ⚪ Aroon  `D07-F02-A03`
 - ⚪ Directional Movement  `D07-F02-A04`
