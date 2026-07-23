@@ -403,7 +403,7 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 
 ### Trend Smoothing  `D07-F01`
 
-- 🟢 [SMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/sma/)  `D07-F01-A01`
+- 🟢 [SMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/sma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-SMA-Simple-Moving-Average-algorithm)  `D07-F01-A01`
 - 🟢 [EMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/ema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-EMA-Exponential-Moving-Average-algorithm)  `D07-F01-A02`
 - 🟢 [WMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wma/)  `D07-F01-A03`
 - 🟢 [Wilder RMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wilder-rma/)  `D07-F01-A04`
