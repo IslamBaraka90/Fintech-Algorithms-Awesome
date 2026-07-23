@@ -429,7 +429,7 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 - 🟢 [Wilder RMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wilder-rma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Wilder-RMA-Smoothing-algorithm)  `D07-F01-A04`
 - 🟢 [DEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/dema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-DEMA-Double-Exponential-Moving-Average-algorithm)  `D07-F01-A05`
 - 🟢 [TEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/tema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-TEMA-Triple-Exponential-Moving-Average-algorithm)  `D07-F01-A06`
-- 🟢 [Hull MA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/hull-ma/)  `D07-F01-A07`
+- 🟢 [Hull MA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/hull-ma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-HMA-Hull-Moving-Average-algorithm)  `D07-F01-A07`
 - ⚪ KAMA  `D07-F01-A08`
 - ⚪ MAMA  `D07-F01-A09`
 
