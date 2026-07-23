@@ -1,0 +1,21 @@
+# Provenance for the publishing tool. This repo is not a single algorithm — it
+# is the index that spans the ENTIRE taxonomy, so its "domain and family" is the
+# whole catalog: all domains and all families.
+repo_slug: "Fintech-Algorithms-Awesome"
+github: "IslamBaraka90/Fintech-Algorithms-Awesome"
+visibility: "public"
+kind: "index"   # not an algorithm package
+
+# Scope: this repo sits ABOVE every domain and family and lists all of them.
+covers:
+  domains: "all"          # 48 domains (D01–D48)
+  families: "all"         # 224 families
+  algorithms: "all"       # ~1,219 catalog topics
+  taxonomy_source: "algorithms/MASTER-CATALOG.md"
+
+website: "https://thefintechbuilder.com"
+library_index: "https://thefintechbuilder.com/library/"
+
+# The README is generated — do not hand-edit it; edit the generator instead.
+generator: "scripts/generate_awesome.mjs"
+link_source_of_truth: "data/sitemap-live-topics.txt"   # refreshed from thefintechbuilder.com/sitemap.xml
