@@ -133,7 +133,7 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 
 ### Data Quality  `D01-F04`
 
-- 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/)  `D01-F04-A01`
+- 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Missing-Bar-Gap-Classifier-algorithm)  `D01-F04-A01`
 - 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/)  `D01-F04-A02`
 - 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/)  `D01-F04-A03`
 - 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/)  `D01-F04-A04`
