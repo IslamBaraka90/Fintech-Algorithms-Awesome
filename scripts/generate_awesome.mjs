@@ -117,6 +117,28 @@ P();
 P("---");
 P();
 
+// -- personal story (why this project exists) ------------------------------ //
+P("## Why I built this");
+P();
+P("When I first stepped into fintech, I kept hitting the same wall: the field is *enormous*, and its");
+P("algorithms are scattered everywhere — a formula in one paper, a snippet in another repo, half an");
+P("explanation buried in a forum thread. I could never find a single place that laid out **all** of it,");
+P("with a clear path from *\"what is this?\"* to *\"here's the working code.\"* No map. No learning path");
+P("through the whole rich, sprawling landscape of financial algorithms.");
+P();
+P("So I decided to build that place. First for **myself** — to actually learn this field by implementing");
+P("every piece of it end to end, not just reading about it — and then for **every other developer**");
+P("walking the same road. The Fintech Builder is that continuous learning journey: one algorithm at a");
+P("time, explained, visualized, and shipped as real, runnable code you can install and build on.");
+P();
+P("This index is the map. It keeps growing, because that's the whole point — applying everything, for");
+P("myself and for anyone learning alongside me. **The journey never stops.** 🚀");
+P();
+P("— *Islam, The Fintech Builder*");
+P();
+P("---");
+P();
+
 // Group domains by Part (the catalog stores part on each domain).
 const parts = [];
 for (const domain of library.domains) {

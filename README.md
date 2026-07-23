@@ -17,6 +17,26 @@
 
 ---
 
+## Why I built this
+
+When I first stepped into fintech, I kept hitting the same wall: the field is *enormous*, and its
+algorithms are scattered everywhere — a formula in one paper, a snippet in another repo, half an
+explanation buried in a forum thread. I could never find a single place that laid out **all** of it,
+with a clear path from *"what is this?"* to *"here's the working code."* No map. No learning path
+through the whole rich, sprawling landscape of financial algorithms.
+
+So I decided to build that place. First for **myself** — to actually learn this field by implementing
+every piece of it end to end, not just reading about it — and then for **every other developer**
+walking the same road. The Fintech Builder is that continuous learning journey: one algorithm at a
+time, explained, visualized, and shipped as real, runnable code you can install and build on.
+
+This index is the map. It keeps growing, because that's the whole point — applying everything, for
+myself and for anyone learning alongside me. **The journey never stops.** 🚀
+
+— *Islam, The Fintech Builder*
+
+---
+
 ## Contents
 
 - **Market Data, Analysis, and Trading**
@@ -407,7 +427,7 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 - 🟢 [EMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/ema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-EMA-Exponential-Moving-Average-algorithm)  `D07-F01-A02`
 - 🟢 [WMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-WMA-Weighted-Moving-Average-algorithm)  `D07-F01-A03`
 - 🟢 [Wilder RMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wilder-rma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Wilder-RMA-Smoothing-algorithm)  `D07-F01-A04`
-- 🟢 [DEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/dema/)  `D07-F01-A05`
+- 🟢 [DEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/dema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-DEMA-Double-Exponential-Moving-Average-algorithm)  `D07-F01-A05`
 - 🟢 [TEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/tema/)  `D07-F01-A06`
 - 🟢 [Hull MA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/hull-ma/)  `D07-F01-A07`
 - ⚪ KAMA  `D07-F01-A08`
