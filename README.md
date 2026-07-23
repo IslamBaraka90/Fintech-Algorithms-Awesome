@@ -107,7 +107,7 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 ### Bar Construction  `D01-F01`
 
 - 🟢 [Time Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/time-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Time-Bars-Bar-Construction-algorithm)  `D01-F01-A01`
-- 🟢 [Tick Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-bars/)  `D01-F01-A02`
+- 🟢 [Tick Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Bars-Bar-Construction-algorithm)  `D01-F01-A02`
 - 🟢 [Volume Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-bars/)  `D01-F01-A03`
 - 🟢 [Dollar Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/dollar-bars/)  `D01-F01-A04`
 - 🟢 [Tick-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-imbalance-bars/)  `D01-F01-A05`
