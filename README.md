@@ -111,7 +111,7 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 - 🟢 [Volume Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Bars-Bar-Construction-algorithm)  `D01-F01-A03`
 - 🟢 [Dollar Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/dollar-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Dollar-Bars-Bar-Construction-algorithm)  `D01-F01-A04`
 - 🟢 [Tick-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-imbalance-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A05`
-- 🟢 [Volume-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-imbalance-bars/)  `D01-F01-A06`
+- 🟢 [Volume-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-imbalance-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A06`
 - 🟢 [Tick-Run Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-run-bars/)  `D01-F01-A07`
 
 ### Cleaning and Validation  `D01-F02`
