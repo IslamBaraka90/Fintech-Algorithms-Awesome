@@ -255,7 +255,7 @@ _Measure the participation, strength, and concentration hidden beneath headline 
 ### Advance/Decline Breadth  `D04-F01`
 
 - 🟢 [Net Advances](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/net-advances/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Net-Advances-Market-Breadth-algorithm)  `D04-F01-A01`
-- 🟢 [Advance/Decline Ratio](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio/)  `D04-F01-A02`
+- 🟢 [Advance/Decline Ratio](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Advance-Decline-Ratio-Market-Breadth-algorithm)  `D04-F01-A02`
 - 🟢 [Cumulative Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line/)  `D04-F01-A03`
 - 🟢 [Normalized Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line/)  `D04-F01-A04`
 - 🟢 [Absolute Breadth Index](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index/)  `D04-F01-A05`
