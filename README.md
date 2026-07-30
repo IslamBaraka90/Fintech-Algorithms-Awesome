@@ -14,7 +14,7 @@
 
 🌐 **Website:** [thefintechbuilder.com](https://thefintechbuilder.com)  ·  📚 **Library:** [https://thefintechbuilder.com/library/](https://thefintechbuilder.com/library/)
 
-📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.8.0, **187** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
+📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.9.0, **187** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
 
 ```bash
 npm install fintech-algorithms
@@ -289,7 +289,7 @@ _Measure the participation, strength, and concentration hidden beneath headline 
 - 🟢 [Net Advances](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/net-advances/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/net-advances") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Net-Advances-Market-Breadth-algorithm)  `D04-F01-A01`
 - 🟢 [Advance/Decline Ratio](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Advance-Decline-Ratio-Market-Breadth-algorithm)  `D04-F01-A02`
 - 🟢 [Cumulative Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Cumulative-Advance-Decline-Line-Market-Breadth-algorithm)  `D04-F01-A03`
-- 🟢 [Normalized Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line")  `D04-F01-A04`
+- 🟢 [Normalized Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Normalized-Advance-Decline-Line-Market-Breadth-algorithm)  `D04-F01-A04`
 - 🟢 [Absolute Breadth Index](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index")  `D04-F01-A05`
 
 ### McClellan Family  `D04-F02`
