@@ -5,15 +5,33 @@
 > **domain → family → algorithm**, from market-data engineering to fair-value measurement.
 
 <p>
-  <img alt="Domains" src="https://img.shields.io/badge/domains-48-2b6cb0">
-  <img alt="Families" src="https://img.shields.io/badge/families-224-2b6cb0">
-  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1219-2b6cb0">
+  <img alt="Domains" src="https://img.shields.io/badge/domains-49-2b6cb0">
+  <img alt="Families" src="https://img.shields.io/badge/families-242-2b6cb0">
+  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1330-2b6cb0">
   <img alt="Published" src="https://img.shields.io/badge/published%20articles-103-brightgreen">
+  <img alt="On npm" src="https://img.shields.io/badge/on%20npm-187-cb3837">
 </p>
 
 🌐 **Website:** [thefintechbuilder.com](https://thefintechbuilder.com)  ·  📚 **Library:** [https://thefintechbuilder.com/library/](https://thefintechbuilder.com/library/)
 
-**Legend:** 🟢 = published article (clickable)  ·  ⚪ = planned  ·  📦 = has a dedicated open-source repo
+📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.8.0, **187** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
+
+```bash
+npm install fintech-algorithms
+```
+
+**Legend**
+
+| mark | meaning |
+|---|---|
+| 🟢 | article published — the title links to it |
+| ⚪ | planned — no article yet |
+| 📥 | **implemented in the [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) npm package** — installable today; hover the mark for its import subpath |
+| 📦 | has its own dedicated open-source repo (Python + TypeScript, deeper implementation) |
+
+Three independent signals, so a row tells you exactly what exists: 🟢 is the
+*explanation*, 📥 is the *quickest way to run it*, and 📦 is the *deep dive*. A
+planned topic can still be on npm, and a topic on npm may not have its own repo.
 
 ---
 
@@ -85,7 +103,7 @@ myself and for anyone learning alongside me. **The journey never stops.** 🚀
   - [D39 — Optimization and Simulation](#d39--optimization-and-simulation)
   - [D40 — Model Validation and Backtesting](#d40--model-validation-and-backtesting)
   - [D41 — Explainability, Fairness, and Governance](#d41--explainability-fairness-and-governance)
-  - [D42 — Identity, Cybersecurity, and Trust](#d42--identity-cybersecurity-and-trust)
+  - [D42 — Digital Identity and Trust](#d42--digital-identity-and-trust)
   - [D43 — Clearing, Settlement, and Custody](#d43--clearing-settlement-and-custody)
   - [D44 — Product Pricing and Unit Economics](#d44--product-pricing-and-unit-economics)
   - [D45 — Regulatory and Compliance Automation](#d45--regulatory-and-compliance-automation)
@@ -93,6 +111,8 @@ myself and for anyone learning alongside me. **The journey never stops.** 🚀
   - [D46 — Earnings and Per-Share Analytics](#d46--earnings-and-per-share-analytics)
   - [D47 — Corporate Forecasting and Financial Model Engineering](#d47--corporate-forecasting-and-financial-model-engineering)
   - [D48 — Fair Value Measurement and Valuation Control](#d48--fair-value-measurement-and-valuation-control)
+- **Financial Cybersecurity Engineering**
+  - [D49 — Financial Cybersecurity Engineering](#d49--financial-cybersecurity-engineering)
 
 ---
 
@@ -102,42 +122,53 @@ myself and for anyone learning alongside me. **The journey never stops.** 🚀
 
 _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-ready market data._
 
-**Domain page:** [thefintechbuilder.com/domains/market-data-engineering/](https://thefintechbuilder.com/domains/market-data-engineering/)  ·  **4** families  ·  **23/23** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/market-data-engineering/](https://thefintechbuilder.com/domains/market-data-engineering/)  ·  **5** families  ·  **23/31** published  ·  **23/31** on npm
 
 ### Bar Construction  `D01-F01`
 
-- 🟢 [Time Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/time-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Time-Bars-Bar-Construction-algorithm)  `D01-F01-A01`
-- 🟢 [Tick Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Bars-Bar-Construction-algorithm)  `D01-F01-A02`
-- 🟢 [Volume Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Bars-Bar-Construction-algorithm)  `D01-F01-A03`
-- 🟢 [Dollar Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/dollar-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Dollar-Bars-Bar-Construction-algorithm)  `D01-F01-A04`
-- 🟢 [Tick-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-imbalance-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A05`
-- 🟢 [Volume-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-imbalance-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A06`
-- 🟢 [Tick-Run Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-run-bars/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Run-Bars-Bar-Construction-algorithm)  `D01-F01-A07`
+- 🟢 [Time Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/time-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/time-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Time-Bars-Bar-Construction-algorithm)  `D01-F01-A01`
+- 🟢 [Tick Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/tick-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Bars-Bar-Construction-algorithm)  `D01-F01-A02`
+- 🟢 [Volume Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/volume-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Bars-Bar-Construction-algorithm)  `D01-F01-A03`
+- 🟢 [Dollar Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/dollar-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/dollar-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Dollar-Bars-Bar-Construction-algorithm)  `D01-F01-A04`
+- 🟢 [Tick-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-imbalance-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/tick-imbalance-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A05`
+- 🟢 [Volume-Imbalance Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/volume-imbalance-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/volume-imbalance-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Volume-Imbalance-Bars-Bar-Construction-algorithm)  `D01-F01-A06`
+- 🟢 [Tick-Run Bars](https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-run-bars/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/bar-construction/tick-run-bars") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Tick-Run-Bars-Bar-Construction-algorithm)  `D01-F01-A07`
 
 ### Cleaning and Validation  `D01-F02`
 
-- 🟢 [OHLC Consistency Validator](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/ohlc-consistency-validator/)  `D01-F02-A01`
-- 🟢 [Hampel Bad-Tick Filter](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/hampel-bad-tick-filter/)  `D01-F02-A02`
-- 🟢 [Median Absolute Deviation Outlier Filter](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/median-absolute-deviation-outlier-filter/)  `D01-F02-A03`
-- 🟢 [Stale-Quote Detector](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/stale-quote-detector/)  `D01-F02-A04`
-- 🟢 [Duplicate-Trade Resolver](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/duplicate-trade-resolver/)  `D01-F02-A05`
-- 🟢 [Crossed/Locked Market Detector](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/crossed-locked-market-detector/)  `D01-F02-A06`
+- 🟢 [OHLC Consistency Validator](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/ohlc-consistency-validator/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/ohlc-consistency-validator")  `D01-F02-A01`
+- 🟢 [Hampel Bad-Tick Filter](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/hampel-bad-tick-filter/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/hampel-bad-tick-filter")  `D01-F02-A02`
+- 🟢 [Median Absolute Deviation Outlier Filter](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/median-absolute-deviation-outlier-filter/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/median-absolute-deviation-outlier-filter")  `D01-F02-A03`
+- 🟢 [Stale-Quote Detector](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/stale-quote-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/stale-quote-detector")  `D01-F02-A04`
+- 🟢 [Duplicate-Trade Resolver](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/duplicate-trade-resolver/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/duplicate-trade-resolver")  `D01-F02-A05`
+- 🟢 [Crossed/Locked Market Detector](https://thefintechbuilder.com/market-data-engineering/cleaning-and-validation/crossed-locked-market-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/cleaning-and-validation/crossed-locked-market-detector")  `D01-F02-A06`
 
 ### Time Synchronization  `D01-F03`
 
-- 🟢 [Previous-Tick Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/previous-tick-interpolation/)  `D01-F03-A01`
-- 🟢 [Linear Quote Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/linear-quote-interpolation/)  `D01-F03-A02`
-- 🟢 [Refresh-Time Sampling](https://thefintechbuilder.com/market-data-engineering/time-synchronization/refresh-time-sampling/)  `D01-F03-A03`
-- 🟢 [Exchange-Calendar Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/exchange-calendar-alignment/)  `D01-F03-A04`
-- 🟢 [Asynchronous Return Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/asynchronous-return-alignment/)  `D01-F03-A05`
+- 🟢 [Previous-Tick Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/previous-tick-interpolation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/previous-tick-interpolation")  `D01-F03-A01`
+- 🟢 [Linear Quote Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/linear-quote-interpolation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/linear-quote-interpolation")  `D01-F03-A02`
+- 🟢 [Refresh-Time Sampling](https://thefintechbuilder.com/market-data-engineering/time-synchronization/refresh-time-sampling/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/refresh-time-sampling")  `D01-F03-A03`
+- 🟢 [Exchange-Calendar Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/exchange-calendar-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/exchange-calendar-alignment")  `D01-F03-A04`
+- 🟢 [Asynchronous Return Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/asynchronous-return-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/asynchronous-return-alignment")  `D01-F03-A05`
 
 ### Data Quality  `D01-F04`
 
-- 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Missing-Bar-Gap-Classifier-algorithm)  `D01-F04-A01`
-- 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/)  `D01-F04-A02`
-- 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/)  `D01-F04-A03`
-- 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/)  `D01-F04-A04`
-- 🟢 [Point-in-Time Availability Guard](https://thefintechbuilder.com/market-data-engineering/data-quality/point-in-time-availability-guard/)  `D01-F04-A05`
+- 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/missing-bar-gap-classifier") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Missing-Bar-Gap-Classifier-algorithm)  `D01-F04-A01`
+- 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/feed-latency-monitor")  `D01-F04-A02`
+- 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/price-source-consensus-check")  `D01-F04-A03`
+- 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/schema-drift-detector")  `D01-F04-A04`
+- 🟢 [Point-in-Time Availability Guard](https://thefintechbuilder.com/market-data-engineering/data-quality/point-in-time-availability-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/point-in-time-availability-guard")  `D01-F04-A05`
+- ⚪ Provider Adjustment-Basis Drift Detector  `D01-F04-A06`
+
+### Order-Book Feed Engineering  `D01-F05`
+
+- ⚪ Trade-and-Quote Event Normalization  `D01-F05-A01`
+- ⚪ Level-2 Snapshot-and-Delta Reconstruction  `D01-F05-A02`
+- ⚪ Level-3 Order-by-Order Reconstruction  `D01-F05-A03`
+- ⚪ Sequence-Gap Detection and Recovery  `D01-F05-A04`
+- ⚪ Price-Level Quantity Aggregation  `D01-F05-A05`
+- ⚪ Snapshot/Incremental-Feed Reconciliation  `D01-F05-A06`
+- ⚪ Multi-Venue Best-Quote and Book Consolidation  `D01-F05-A07`
 
 ---
 
@@ -145,38 +176,39 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 
 _Preserve instrument identity and create economically comparable histories across corporate events._
 
-**Domain page:** [thefintechbuilder.com/domains/corporate-actions-and-security-master-data/](https://thefintechbuilder.com/domains/corporate-actions-and-security-master-data/)  ·  **4** families  ·  **19/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/corporate-actions-and-security-master-data/](https://thefintechbuilder.com/domains/corporate-actions-and-security-master-data/)  ·  **4** families  ·  **19/20** published  ·  **19/20** on npm
 
 ### Adjustment Factors  `D02-F01`
 
-- 🟢 [Backward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment/)  `D02-F01-A01`
-- 🟢 [Forward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment/)  `D02-F01-A02`
-- 🟢 [Cash-Dividend Total-Return Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment/)  `D02-F01-A03`
-- 🟢 [CRSP Cumulative Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-price-adjustment/)  `D02-F01-A04`
-- 🟢 [CRSP Cumulative Share/Volume Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-share-volume-adjustment/)  `D02-F01-A05`
+- 🟢 [Backward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment")  `D02-F01-A01`
+- 🟢 [Forward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment")  `D02-F01-A02`
+- 🟢 [Cash-Dividend Total-Return Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment")  `D02-F01-A03`
+- 🟢 [CRSP Cumulative Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-price-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-price-adjustment")  `D02-F01-A04`
+- 🟢 [CRSP Cumulative Share/Volume Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-share-volume-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-share-volume-adjustment")  `D02-F01-A05`
 
 ### Complex Distributions  `D02-F02`
 
-- 🟢 [Rights-Issue TERP Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/rights-issue-terp-adjustment/)  `D02-F02-A01`
-- 🟢 [Spin-Off Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/spin-off-price-adjustment/)  `D02-F02-A02`
-- 🟢 [Stock-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/stock-dividend-adjustment/)  `D02-F02-A03`
-- 🟢 [Special-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/special-dividend-adjustment/)  `D02-F02-A04`
-- 🟢 [Return-of-Capital Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment/)  `D02-F02-A05`
+- 🟢 [Rights-Issue TERP Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/rights-issue-terp-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/rights-issue-terp-adjustment")  `D02-F02-A01`
+- 🟢 [Spin-Off Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/spin-off-price-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/spin-off-price-adjustment")  `D02-F02-A02`
+- 🟢 [Stock-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/stock-dividend-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/stock-dividend-adjustment")  `D02-F02-A03`
+- 🟢 [Special-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/special-dividend-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/special-dividend-adjustment")  `D02-F02-A04`
+- 🟢 [Return-of-Capital Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment")  `D02-F02-A05`
 
 ### Identity Continuity  `D02-F03`
 
-- 🟢 [Permanent Security Identifier Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping/)  `D02-F03-A01`
-- 🟢 [Ticker-Change Chain Resolution](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution/)  `D02-F03-A02`
-- 🟢 [Share-Class Relationship Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/share-class-relationship-mapping/)  `D02-F03-A03`
-- 🟢 [Merger Predecessor/Successor Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/merger-predecessor-successor-mapping/)  `D02-F03-A04`
-- 🟢 [Delisting Return Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/delisting-return-reconstruction/)  `D02-F03-A05`
+- 🟢 [Permanent Security Identifier Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping")  `D02-F03-A01`
+- 🟢 [Ticker-Change Chain Resolution](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution")  `D02-F03-A02`
+- 🟢 [Share-Class Relationship Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/share-class-relationship-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/share-class-relationship-mapping")  `D02-F03-A03`
+- 🟢 [Merger Predecessor/Successor Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/merger-predecessor-successor-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/merger-predecessor-successor-mapping")  `D02-F03-A04`
+- 🟢 [Delisting Return Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/delisting-return-reconstruction/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/delisting-return-reconstruction")  `D02-F03-A05`
 
 ### Point-in-Time Universe  `D02-F04`
 
-- 🟢 [Historical Constituent Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction/)  `D02-F04-A01`
-- 🟢 [Survivorship-Bias Guard](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard/)  `D02-F04-A02`
-- 🟢 [IPO Availability Timestamping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping/)  `D02-F04-A03`
-- 🟢 [Filing-Revision Versioning](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning/)  `D02-F04-A04`
+- 🟢 [Historical Constituent Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction")  `D02-F04-A01`
+- 🟢 [Survivorship-Bias Guard](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard")  `D02-F04-A02`
+- 🟢 [IPO Availability Timestamping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping")  `D02-F04-A03`
+- 🟢 [Filing-Revision Versioning](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning")  `D02-F04-A04`
+- ⚪ Corporate-Action Status and Effective-Date Reconciliation  `D02-F04-A05`
 
 ---
 
@@ -184,65 +216,65 @@ _Preserve instrument identity and create economically comparable histories acros
 
 _Design, calculate, and maintain transparent benchmarks, from constituent selection to published index levels._
 
-**Domain page:** [thefintechbuilder.com/domains/index-and-benchmark-engineering/](https://thefintechbuilder.com/domains/index-and-benchmark-engineering/)  ·  **6** families  ·  **40/40** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/index-and-benchmark-engineering/](https://thefintechbuilder.com/domains/index-and-benchmark-engineering/)  ·  **6** families  ·  **40/40** published  ·  **40/40** on npm
 
 ### Index Initialization and Continuity  `D03-F01`
 
-- 🟢 [Base-Date/Base-Value Initialization](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/base-date-base-value-initialization/)  `D03-F01-A01`
-- 🟢 [Index Divisor Initialization](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/index-divisor-initialization/)  `D03-F01-A02`
-- 🟢 [Divisor Continuity Adjustment](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/divisor-continuity-adjustment/)  `D03-F01-A03`
-- 🟢 [Corporate-Action Divisor Bridge](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/corporate-action-divisor-bridge/)  `D03-F01-A04`
-- 🟢 [Intraday Index-Level Calculation](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/intraday-index-level-calculation/)  `D03-F01-A05`
+- 🟢 [Base-Date/Base-Value Initialization](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/base-date-base-value-initialization/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/index-initialization-and-continuity/base-date-base-value-initialization")  `D03-F01-A01`
+- 🟢 [Index Divisor Initialization](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/index-divisor-initialization/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/index-initialization-and-continuity/index-divisor-initialization")  `D03-F01-A02`
+- 🟢 [Divisor Continuity Adjustment](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/divisor-continuity-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/index-initialization-and-continuity/divisor-continuity-adjustment")  `D03-F01-A03`
+- 🟢 [Corporate-Action Divisor Bridge](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/corporate-action-divisor-bridge/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/index-initialization-and-continuity/corporate-action-divisor-bridge")  `D03-F01-A04`
+- 🟢 [Intraday Index-Level Calculation](https://thefintechbuilder.com/index-and-benchmark-engineering/index-initialization-and-continuity/intraday-index-level-calculation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/index-initialization-and-continuity/intraday-index-level-calculation")  `D03-F01-A05`
 
 ### Weighting and Capping  `D03-F02`
 
-- 🟢 [Price-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/price-weighted-index/)  `D03-F02-A01`
-- 🟢 [Total-Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/total-market-cap-index/)  `D03-F02-A02`
-- 🟢 [Free-Float Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/free-float-market-cap-index/)  `D03-F02-A03`
-- 🟢 [Capped Free-Float Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/capped-free-float-market-cap-index/)  `D03-F02-A04`
-- 🟢 [Modified Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/modified-market-cap-index/)  `D03-F02-A05`
-- 🟢 [Equal-Weight Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/equal-weight-index/)  `D03-F02-A06`
-- 🟢 [Iterative Cap Redistribution](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/iterative-cap-redistribution/)  `D03-F02-A07`
-- 🟢 [Group-Level Capping](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/group-level-capping/)  `D03-F02-A08`
+- 🟢 [Price-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/price-weighted-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/price-weighted-index")  `D03-F02-A01`
+- 🟢 [Total-Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/total-market-cap-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/total-market-cap-index")  `D03-F02-A02`
+- 🟢 [Free-Float Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/free-float-market-cap-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/free-float-market-cap-index")  `D03-F02-A03`
+- 🟢 [Capped Free-Float Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/capped-free-float-market-cap-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/capped-free-float-market-cap-index")  `D03-F02-A04`
+- 🟢 [Modified Market-Cap Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/modified-market-cap-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/modified-market-cap-index")  `D03-F02-A05`
+- 🟢 [Equal-Weight Index](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/equal-weight-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/equal-weight-index")  `D03-F02-A06`
+- 🟢 [Iterative Cap Redistribution](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/iterative-cap-redistribution/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/iterative-cap-redistribution")  `D03-F02-A07`
+- 🟢 [Group-Level Capping](https://thefintechbuilder.com/index-and-benchmark-engineering/weighting-and-capping/group-level-capping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/weighting-and-capping/group-level-capping")  `D03-F02-A08`
 
 ### Alternative Weighting  `D03-F03`
 
-- 🟢 [Fundamental-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/fundamental-weighted-index/)  `D03-F03-A01`
-- 🟢 [Dividend-Yield-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/dividend-yield-weighted-index/)  `D03-F03-A02`
-- 🟢 [Factor-Score-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/factor-score-weighted-index/)  `D03-F03-A03`
-- 🟢 [Minimum-Volatility Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/minimum-volatility-index/)  `D03-F03-A04`
-- 🟢 [Equal-Risk-Contribution Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/equal-risk-contribution-index/)  `D03-F03-A05`
-- 🟢 [Thematic-Tilt Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/thematic-tilt-index/)  `D03-F03-A06`
+- 🟢 [Fundamental-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/fundamental-weighted-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/fundamental-weighted-index")  `D03-F03-A01`
+- 🟢 [Dividend-Yield-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/dividend-yield-weighted-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/dividend-yield-weighted-index")  `D03-F03-A02`
+- 🟢 [Factor-Score-Weighted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/factor-score-weighted-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/factor-score-weighted-index")  `D03-F03-A03`
+- 🟢 [Minimum-Volatility Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/minimum-volatility-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/minimum-volatility-index")  `D03-F03-A04`
+- 🟢 [Equal-Risk-Contribution Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/equal-risk-contribution-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/equal-risk-contribution-index")  `D03-F03-A05`
+- 🟢 [Thematic-Tilt Index](https://thefintechbuilder.com/index-and-benchmark-engineering/alternative-weighting/thematic-tilt-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/alternative-weighting/thematic-tilt-index")  `D03-F03-A06`
 
 ### Return Variants  `D03-F04`
 
-- 🟢 [Price-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/price-return-index/)  `D03-F04-A01`
-- 🟢 [Gross Total-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/gross-total-return-index/)  `D03-F04-A02`
-- 🟢 [Net Total-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/net-total-return-index/)  `D03-F04-A03`
-- 🟢 [Excess-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/excess-return-index/)  `D03-F04-A04`
-- 🟢 [Dividend-Point Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/dividend-point-index/)  `D03-F04-A05`
-- 🟢 [Currency-Converted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/currency-converted-index/)  `D03-F04-A06`
-- 🟢 [Currency-Hedged Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/currency-hedged-index/)  `D03-F04-A07`
+- 🟢 [Price-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/price-return-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/price-return-index")  `D03-F04-A01`
+- 🟢 [Gross Total-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/gross-total-return-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/gross-total-return-index")  `D03-F04-A02`
+- 🟢 [Net Total-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/net-total-return-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/net-total-return-index")  `D03-F04-A03`
+- 🟢 [Excess-Return Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/excess-return-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/excess-return-index")  `D03-F04-A04`
+- 🟢 [Dividend-Point Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/dividend-point-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/dividend-point-index")  `D03-F04-A05`
+- 🟢 [Currency-Converted Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/currency-converted-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/currency-converted-index")  `D03-F04-A06`
+- 🟢 [Currency-Hedged Index](https://thefintechbuilder.com/index-and-benchmark-engineering/return-variants/currency-hedged-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/return-variants/currency-hedged-index")  `D03-F04-A07`
 
 ### Strategy Indices  `D03-F05`
 
-- 🟢 [Leveraged Daily-Reset Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/leveraged-daily-reset-index/)  `D03-F05-A01`
-- 🟢 [Inverse Daily-Reset Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/inverse-daily-reset-index/)  `D03-F05-A02`
-- 🟢 [Volatility-Control Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/volatility-control-index/)  `D03-F05-A03`
-- 🟢 [Fixed-Decrement Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/fixed-decrement-index/)  `D03-F05-A04`
-- 🟢 [Percentage-Decrement Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/percentage-decrement-index/)  `D03-F05-A05`
-- 🟢 [Index-of-Indices](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/index-of-indices/)  `D03-F05-A06`
+- 🟢 [Leveraged Daily-Reset Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/leveraged-daily-reset-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/leveraged-daily-reset-index")  `D03-F05-A01`
+- 🟢 [Inverse Daily-Reset Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/inverse-daily-reset-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/inverse-daily-reset-index")  `D03-F05-A02`
+- 🟢 [Volatility-Control Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/volatility-control-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/volatility-control-index")  `D03-F05-A03`
+- 🟢 [Fixed-Decrement Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/fixed-decrement-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/fixed-decrement-index")  `D03-F05-A04`
+- 🟢 [Percentage-Decrement Index](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/percentage-decrement-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/percentage-decrement-index")  `D03-F05-A05`
+- 🟢 [Index-of-Indices](https://thefintechbuilder.com/index-and-benchmark-engineering/strategy-indices/index-of-indices/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/strategy-indices/index-of-indices")  `D03-F05-A06`
 
 ### Governance and Maintenance  `D03-F06`
 
-- 🟢 [Eligibility Screen](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/eligibility-screen/)  `D03-F06-A01`
-- 🟢 [Liquidity Screen](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/liquidity-screen/)  `D03-F06-A02`
-- 🟢 [Free-Float Factor Calculation](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/free-float-factor-calculation/)  `D03-F06-A03`
-- 🟢 [IPO Fast-Entry Rule](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/ipo-fast-entry-rule/)  `D03-F06-A04`
-- 🟢 [Reconstitution Algorithm](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/reconstitution-algorithm/)  `D03-F06-A05`
-- 🟢 [Rebalancing Algorithm](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/rebalancing-algorithm/)  `D03-F06-A06`
-- 🟢 [Turnover Buffer Rule](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/turnover-buffer-rule/)  `D03-F06-A07`
-- 🟢 [Index Replication-Cost Estimator](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/index-replication-cost-estimator/)  `D03-F06-A08`
+- 🟢 [Eligibility Screen](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/eligibility-screen/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/eligibility-screen")  `D03-F06-A01`
+- 🟢 [Liquidity Screen](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/liquidity-screen/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/liquidity-screen")  `D03-F06-A02`
+- 🟢 [Free-Float Factor Calculation](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/free-float-factor-calculation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/free-float-factor-calculation")  `D03-F06-A03`
+- 🟢 [IPO Fast-Entry Rule](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/ipo-fast-entry-rule/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/ipo-fast-entry-rule")  `D03-F06-A04`
+- 🟢 [Reconstitution Algorithm](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/reconstitution-algorithm/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/reconstitution-algorithm")  `D03-F06-A05`
+- 🟢 [Rebalancing Algorithm](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/rebalancing-algorithm/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/rebalancing-algorithm")  `D03-F06-A06`
+- 🟢 [Turnover Buffer Rule](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/turnover-buffer-rule/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/turnover-buffer-rule")  `D03-F06-A07`
+- 🟢 [Index Replication-Cost Estimator](https://thefintechbuilder.com/index-and-benchmark-engineering/governance-and-maintenance/index-replication-cost-estimator/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/index-and-benchmark-engineering/governance-and-maintenance/index-replication-cost-estimator")  `D03-F06-A08`
 
 ---
 
@@ -250,50 +282,50 @@ _Design, calculate, and maintain transparent benchmarks, from constituent select
 
 _Measure the participation, strength, and concentration hidden beneath headline market movements._
 
-**Domain page:** [thefintechbuilder.com/domains/market-breadth-and-internals/](https://thefintechbuilder.com/domains/market-breadth-and-internals/)  ·  **5** families  ·  **6/28** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/market-breadth-and-internals/](https://thefintechbuilder.com/domains/market-breadth-and-internals/)  ·  **5** families  ·  **6/28** published  ·  **28/28** on npm
 
 ### Advance/Decline Breadth  `D04-F01`
 
-- 🟢 [Net Advances](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/net-advances/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Net-Advances-Market-Breadth-algorithm)  `D04-F01-A01`
-- 🟢 [Advance/Decline Ratio](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Advance-Decline-Ratio-Market-Breadth-algorithm)  `D04-F01-A02`
-- 🟢 [Cumulative Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Cumulative-Advance-Decline-Line-Market-Breadth-algorithm)  `D04-F01-A03`
-- 🟢 [Normalized Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line/)  `D04-F01-A04`
-- 🟢 [Absolute Breadth Index](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index/)  `D04-F01-A05`
+- 🟢 [Net Advances](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/net-advances/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/net-advances") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Net-Advances-Market-Breadth-algorithm)  `D04-F01-A01`
+- 🟢 [Advance/Decline Ratio](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/advance-decline-ratio") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Advance-Decline-Ratio-Market-Breadth-algorithm)  `D04-F01-A02`
+- 🟢 [Cumulative Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/cumulative-advance-decline-line") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Cumulative-Advance-Decline-Line-Market-Breadth-algorithm)  `D04-F01-A03`
+- 🟢 [Normalized Advance/Decline Line](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/normalized-advance-decline-line")  `D04-F01-A04`
+- 🟢 [Absolute Breadth Index](https://thefintechbuilder.com/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/advance-decline-breadth/absolute-breadth-index")  `D04-F01-A05`
 
 ### McClellan Family  `D04-F02`
 
-- 🟢 [Traditional McClellan Oscillator](https://thefintechbuilder.com/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator/)  `D04-F02-A01`
-- ⚪ Ratio-Adjusted McClellan Oscillator  `D04-F02-A02`
-- ⚪ Traditional McClellan Summation Index  `D04-F02-A03`
-- ⚪ Ratio-Adjusted Summation Index (RASI)  `D04-F02-A04`
-- ⚪ McClellan Volume Oscillator  `D04-F02-A05`
-- ⚪ McClellan Volume Summation Index  `D04-F02-A06`
+- 🟢 [Traditional McClellan Oscillator](https://thefintechbuilder.com/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator")  `D04-F02-A01`
+- ⚪ Ratio-Adjusted McClellan Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/ratio-adjusted-mcclellan-oscillator")  `D04-F02-A02`
+- ⚪ Traditional McClellan Summation Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-summation-index")  `D04-F02-A03`
+- ⚪ Ratio-Adjusted Summation Index (RASI) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/ratio-adjusted-summation-index-rasi")  `D04-F02-A04`
+- ⚪ McClellan Volume Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/mcclellan-volume-oscillator")  `D04-F02-A05`
+- ⚪ McClellan Volume Summation Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/mcclellan-volume-summation-index")  `D04-F02-A06`
 
 ### High/Low and Trend Breadth  `D04-F03`
 
-- ⚪ New Highs–New Lows  `D04-F03-A01`
-- ⚪ High-Low Ratio  `D04-F03-A02`
-- ⚪ High-Low Index  `D04-F03-A03`
-- ⚪ Percent Above 20-Day MA  `D04-F03-A04`
-- ⚪ Percent Above 50-Day MA  `D04-F03-A05`
-- ⚪ Percent Above 200-Day MA  `D04-F03-A06`
+- ⚪ New Highs–New Lows — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/new-highs-new-lows")  `D04-F03-A01`
+- ⚪ High-Low Ratio — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/high-low-ratio")  `D04-F03-A02`
+- ⚪ High-Low Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/high-low-index")  `D04-F03-A03`
+- ⚪ Percent Above 20-Day MA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/percent-above-20-day-ma")  `D04-F03-A04`
+- ⚪ Percent Above 50-Day MA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/percent-above-50-day-ma")  `D04-F03-A05`
+- ⚪ Percent Above 200-Day MA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/high-low-and-trend-breadth/percent-above-200-day-ma")  `D04-F03-A06`
 
 ### Thrust and Pressure  `D04-F04`
 
-- ⚪ Zweig Breadth Thrust  `D04-F04-A01`
-- ⚪ Arms Index (TRIN)  `D04-F04-A02`
-- ⚪ Advance/Decline Volume Line  `D04-F04-A03`
-- ⚪ Upside/Downside Volume Ratio  `D04-F04-A04`
-- ⚪ Cumulative TICK  `D04-F04-A05`
-- ⚪ Breadth-Divergence Detector  `D04-F04-A06`
+- ⚪ Zweig Breadth Thrust — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/zweig-breadth-thrust")  `D04-F04-A01`
+- ⚪ Arms Index (TRIN) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/arms-index-trin")  `D04-F04-A02`
+- ⚪ Advance/Decline Volume Line — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/advance-decline-volume-line")  `D04-F04-A03`
+- ⚪ Upside/Downside Volume Ratio — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/upside-downside-volume-ratio")  `D04-F04-A04`
+- ⚪ Cumulative TICK — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/cumulative-tick")  `D04-F04-A05`
+- ⚪ Breadth-Divergence Detector — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/thrust-and-pressure/breadth-divergence-detector")  `D04-F04-A06`
 
 ### Concentration and Diffusion  `D04-F05`
 
-- ⚪ Top-N Index Contribution  `D04-F05-A01`
-- ⚪ Herfindahl Constituent Concentration  `D04-F05-A02`
-- ⚪ Effective Number of Constituents  `D04-F05-A03`
-- ⚪ Sector Diffusion Index  `D04-F05-A04`
-- ⚪ Factor Diffusion Index  `D04-F05-A05`
+- ⚪ Top-N Index Contribution — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/concentration-and-diffusion/top-n-index-contribution")  `D04-F05-A01`
+- ⚪ Herfindahl Constituent Concentration — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/concentration-and-diffusion/herfindahl-constituent-concentration")  `D04-F05-A02`
+- ⚪ Effective Number of Constituents — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/concentration-and-diffusion/effective-number-of-constituents")  `D04-F05-A03`
+- ⚪ Sector Diffusion Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/concentration-and-diffusion/sector-diffusion-index")  `D04-F05-A04`
+- ⚪ Factor Diffusion Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/concentration-and-diffusion/factor-diffusion-index")  `D04-F05-A05`
 
 ---
 
@@ -301,7 +333,7 @@ _Measure the participation, strength, and concentration hidden beneath headline 
 
 _Quantify linear, nonlinear, dynamic, and tail relationships among financial variables and market participants._
 
-**Domain page:** [thefintechbuilder.com/domains/correlation-dependence-and-networks/](https://thefintechbuilder.com/domains/correlation-dependence-and-networks/)  ·  **7** families  ·  **0/40** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/correlation-dependence-and-networks/](https://thefintechbuilder.com/domains/correlation-dependence-and-networks/)  ·  **7** families  ·  **0/40** published  ·  **0/40** on npm
 
 ### Linear and Rank Dependence  `D05-F01`
 
@@ -370,12 +402,12 @@ _Quantify linear, nonlinear, dynamic, and tail relationships among financial var
 
 _Convert candlestick geometry and market context into precise, testable price-action events._
 
-**Domain page:** [thefintechbuilder.com/domains/price-action-and-candlesticks/](https://thefintechbuilder.com/domains/price-action-and-candlesticks/)  ·  **4** families  ·  **2/29** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/price-action-and-candlesticks/](https://thefintechbuilder.com/domains/price-action-and-candlesticks/)  ·  **4** families  ·  **2/29** published  ·  **2/29** on npm
 
 ### Candle Foundations  `D06-F01`
 
-- 🟢 [Candle Anatomy](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/candle-anatomy/)  `D06-F01-A01`
-- 🟢 [Scale-Aware Body Classification](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/scale-aware-body-classification/)  `D06-F01-A02`
+- 🟢 [Candle Anatomy](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/candle-anatomy/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/candle-anatomy")  `D06-F01-A01`
+- 🟢 [Scale-Aware Body Classification](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/scale-aware-body-classification/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/scale-aware-body-classification")  `D06-F01-A02`
 - ⚪ Shadow-to-Body Ratio  `D06-F01-A03`
 - ⚪ Gap Classification  `D06-F01-A04`
 - ⚪ Trend-Context Filter  `D06-F01-A05`
@@ -419,59 +451,59 @@ _Convert candlestick geometry and market context into precise, testable price-ac
 
 _Summarize trend, momentum, volatility, and volume through reproducible indicator calculations._
 
-**Domain page:** [thefintechbuilder.com/domains/technical-indicators/](https://thefintechbuilder.com/domains/technical-indicators/)  ·  **5** families  ·  **8/37** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/technical-indicators/](https://thefintechbuilder.com/domains/technical-indicators/)  ·  **5** families  ·  **8/37** published  ·  **37/37** on npm
 
 ### Trend Smoothing  `D07-F01`
 
-- 🟢 [SMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/sma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-SMA-Simple-Moving-Average-algorithm)  `D07-F01-A01`
-- 🟢 [EMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/ema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-EMA-Exponential-Moving-Average-algorithm)  `D07-F01-A02`
-- 🟢 [WMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-WMA-Weighted-Moving-Average-algorithm)  `D07-F01-A03`
-- 🟢 [Wilder RMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wilder-rma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-Wilder-RMA-Smoothing-algorithm)  `D07-F01-A04`
-- 🟢 [DEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/dema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-DEMA-Double-Exponential-Moving-Average-algorithm)  `D07-F01-A05`
-- 🟢 [TEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/tema/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-TEMA-Triple-Exponential-Moving-Average-algorithm)  `D07-F01-A06`
-- 🟢 [Hull MA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/hull-ma/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-HMA-Hull-Moving-Average-algorithm)  `D07-F01-A07`
-- ⚪ KAMA  `D07-F01-A08`
-- ⚪ MAMA  `D07-F01-A09`
+- 🟢 [SMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/sma/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/sma") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-SMA-Simple-Moving-Average-algorithm)  `D07-F01-A01`
+- 🟢 [EMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/ema/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/ema") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-EMA-Exponential-Moving-Average-algorithm)  `D07-F01-A02`
+- 🟢 [WMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wma/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/wma") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-WMA-Weighted-Moving-Average-algorithm)  `D07-F01-A03`
+- 🟢 [Wilder RMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/wilder-rma/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/wilder-rma") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Wilder-RMA-Smoothing-algorithm)  `D07-F01-A04`
+- 🟢 [DEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/dema/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/dema") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-DEMA-Double-Exponential-Moving-Average-algorithm)  `D07-F01-A05`
+- 🟢 [TEMA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/tema/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/tema") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-TEMA-Triple-Exponential-Moving-Average-algorithm)  `D07-F01-A06`
+- 🟢 [Hull MA](https://thefintechbuilder.com/technical-indicators/trend-smoothing/hull-ma/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/hull-ma") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-HMA-Hull-Moving-Average-algorithm)  `D07-F01-A07`
+- ⚪ KAMA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/kama")  `D07-F01-A08`
+- ⚪ MAMA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-smoothing/mama")  `D07-F01-A09`
 
 ### Trend Systems  `D07-F02`
 
-- 🟢 [MACD](https://thefintechbuilder.com/technical-indicators/trend-systems/macd/) — 📦 [repo](https://github.com/IslamBaraka90/Fintech-MACD-Moving-Average-Convergence-Divergence-algorithm)  `D07-F02-A01`
-- ⚪ Percentage Price Oscillator  `D07-F02-A02`
-- ⚪ Aroon  `D07-F02-A03`
-- ⚪ Directional Movement  `D07-F02-A04`
-- ⚪ ADX  `D07-F02-A05`
-- ⚪ Ichimoku Cloud  `D07-F02-A06`
-- ⚪ Parabolic SAR  `D07-F02-A07`
-- ⚪ Supertrend  `D07-F02-A08`
+- 🟢 [MACD](https://thefintechbuilder.com/technical-indicators/trend-systems/macd/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/macd") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-MACD-Moving-Average-Convergence-Divergence-algorithm)  `D07-F02-A01`
+- ⚪ Percentage Price Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/percentage-price-oscillator")  `D07-F02-A02`
+- ⚪ Aroon — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/aroon")  `D07-F02-A03`
+- ⚪ Directional Movement — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/directional-movement")  `D07-F02-A04`
+- ⚪ ADX — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/adx")  `D07-F02-A05`
+- ⚪ Ichimoku Cloud — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/ichimoku-cloud")  `D07-F02-A06`
+- ⚪ Parabolic SAR — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/parabolic-sar")  `D07-F02-A07`
+- ⚪ Supertrend — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/trend-systems/supertrend")  `D07-F02-A08`
 
 ### Momentum  `D07-F03`
 
-- ⚪ RSI  `D07-F03-A01`
-- ⚪ Stochastic Oscillator  `D07-F03-A02`
-- ⚪ Stochastic RSI  `D07-F03-A03`
-- ⚪ Williams %R  `D07-F03-A04`
-- ⚪ CCI  `D07-F03-A05`
-- ⚪ Ultimate Oscillator  `D07-F03-A06`
-- ⚪ TSI  `D07-F03-A07`
-- ⚪ Connors RSI  `D07-F03-A08`
+- ⚪ RSI — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/rsi")  `D07-F03-A01`
+- ⚪ Stochastic Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/stochastic-oscillator")  `D07-F03-A02`
+- ⚪ Stochastic RSI — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/stochastic-rsi")  `D07-F03-A03`
+- ⚪ Williams %R — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/williams-r")  `D07-F03-A04`
+- ⚪ CCI — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/cci")  `D07-F03-A05`
+- ⚪ Ultimate Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/ultimate-oscillator")  `D07-F03-A06`
+- ⚪ TSI — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/tsi")  `D07-F03-A07`
+- ⚪ Connors RSI — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/momentum/connors-rsi")  `D07-F03-A08`
 
 ### Volatility and Channels  `D07-F04`
 
-- ⚪ True Range  `D07-F04-A01`
-- ⚪ ATR  `D07-F04-A02`
-- ⚪ Bollinger Bands  `D07-F04-A03`
-- ⚪ Keltner Channels  `D07-F04-A04`
-- ⚪ Donchian Channels  `D07-F04-A05`
-- ⚪ Bollinger Bandwidth  `D07-F04-A06`
+- ⚪ True Range — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/true-range")  `D07-F04-A01`
+- ⚪ ATR — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/atr")  `D07-F04-A02`
+- ⚪ Bollinger Bands — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/bollinger-bands")  `D07-F04-A03`
+- ⚪ Keltner Channels — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/keltner-channels")  `D07-F04-A04`
+- ⚪ Donchian Channels — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/donchian-channels")  `D07-F04-A05`
+- ⚪ Bollinger Bandwidth — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volatility-and-channels/bollinger-bandwidth")  `D07-F04-A06`
 
 ### Volume Indicators  `D07-F05`
 
-- ⚪ OBV  `D07-F05-A01`
-- ⚪ Accumulation/Distribution Line  `D07-F05-A02`
-- ⚪ Chaikin Money Flow  `D07-F05-A03`
-- ⚪ Money Flow Index  `D07-F05-A04`
-- ⚪ Volume Price Trend  `D07-F05-A05`
-- ⚪ Force Index  `D07-F05-A06`
+- ⚪ OBV — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/obv")  `D07-F05-A01`
+- ⚪ Accumulation/Distribution Line — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/accumulation-distribution-line")  `D07-F05-A02`
+- ⚪ Chaikin Money Flow — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/chaikin-money-flow")  `D07-F05-A03`
+- ⚪ Money Flow Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/money-flow-index")  `D07-F05-A04`
+- ⚪ Volume Price Trend — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/volume-price-trend")  `D07-F05-A05`
+- ⚪ Force Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/technical-indicators/volume-indicators/force-index")  `D07-F05-A06`
 
 ---
 
@@ -479,23 +511,23 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 
 _Detect recurring price structures with causal pivots, geometric rules, and statistical pattern matching._
 
-**Domain page:** [thefintechbuilder.com/domains/geometric-chart-patterns/](https://thefintechbuilder.com/domains/geometric-chart-patterns/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/geometric-chart-patterns/](https://thefintechbuilder.com/domains/geometric-chart-patterns/)  ·  **4** families  ·  **0/20** published  ·  **10/20** on npm
 
 ### Pivots and Levels  `D08-F01`
 
-- ⚪ Causal Pivot Detection  `D08-F01-A01`
-- ⚪ ZigZag Segmentation  `D08-F01-A02`
-- ⚪ Support/Resistance Clustering  `D08-F01-A03`
-- ⚪ Robust Trendline Fitting  `D08-F01-A04`
+- ⚪ Causal Pivot Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/pivots-and-levels/causal-pivot-detection")  `D08-F01-A01`
+- ⚪ ZigZag Segmentation — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/pivots-and-levels/zigzag-segmentation")  `D08-F01-A02`
+- ⚪ Support/Resistance Clustering — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/pivots-and-levels/support-resistance-clustering")  `D08-F01-A03`
+- ⚪ Robust Trendline Fitting — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/pivots-and-levels/robust-trendline-fitting")  `D08-F01-A04`
 
 ### Reversal Structures  `D08-F02`
 
-- ⚪ Double Top  `D08-F02-A01`
-- ⚪ Double Bottom  `D08-F02-A02`
-- ⚪ Triple Top  `D08-F02-A03`
-- ⚪ Triple Bottom  `D08-F02-A04`
-- ⚪ Head and Shoulders  `D08-F02-A05`
-- ⚪ Inverse Head and Shoulders  `D08-F02-A06`
+- ⚪ Double Top — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/double-top")  `D08-F02-A01`
+- ⚪ Double Bottom — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/double-bottom")  `D08-F02-A02`
+- ⚪ Triple Top — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/triple-top")  `D08-F02-A03`
+- ⚪ Triple Bottom — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/triple-bottom")  `D08-F02-A04`
+- ⚪ Head and Shoulders — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/head-and-shoulders")  `D08-F02-A05`
+- ⚪ Inverse Head and Shoulders — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/reversal-structures/inverse-head-and-shoulders")  `D08-F02-A06`
 
 ### Continuation Structures  `D08-F03`
 
@@ -519,42 +551,42 @@ _Detect recurring price structures with causal pivots, geometric rules, and stat
 
 _Diagnose, model, decompose, and forecast financial sequences while respecting their temporal structure._
 
-**Domain page:** [thefintechbuilder.com/domains/statistical-time-series/](https://thefintechbuilder.com/domains/statistical-time-series/)  ·  **5** families  ·  **0/29** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/statistical-time-series/](https://thefintechbuilder.com/domains/statistical-time-series/)  ·  **5** families  ·  **0/29** published  ·  **23/29** on npm
 
 ### Diagnostics  `D09-F01`
 
-- ⚪ ACF  `D09-F01-A01`
-- ⚪ PACF  `D09-F01-A02`
-- ⚪ Augmented Dickey-Fuller  `D09-F01-A03`
-- ⚪ KPSS  `D09-F01-A04`
-- ⚪ Ljung-Box  `D09-F01-A05`
-- ⚪ Zivot-Andrews Break Test  `D09-F01-A06`
+- ⚪ ACF — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/acf")  `D09-F01-A01`
+- ⚪ PACF — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/pacf")  `D09-F01-A02`
+- ⚪ Augmented Dickey-Fuller — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/augmented-dickey-fuller")  `D09-F01-A03`
+- ⚪ KPSS — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/kpss")  `D09-F01-A04`
+- ⚪ Ljung-Box — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/ljung-box")  `D09-F01-A05`
+- ⚪ Zivot-Andrews Break Test — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/diagnostics/zivot-andrews-break-test")  `D09-F01-A06`
 
 ### Forecast Models  `D09-F02`
 
-- ⚪ AutoReg  `D09-F02-A01`
-- ⚪ ARMA  `D09-F02-A02`
-- ⚪ ARIMA  `D09-F02-A03`
-- ⚪ SARIMA/SARIMAX  `D09-F02-A04`
-- ⚪ Holt-Winters  `D09-F02-A05`
-- ⚪ Theta Forecast  `D09-F02-A06`
+- ⚪ AutoReg — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/autoreg")  `D09-F02-A01`
+- ⚪ ARMA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/arma")  `D09-F02-A02`
+- ⚪ ARIMA — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/arima")  `D09-F02-A03`
+- ⚪ SARIMA/SARIMAX — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/sarima-sarimax")  `D09-F02-A04`
+- ⚪ Holt-Winters — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/holt-winters")  `D09-F02-A05`
+- ⚪ Theta Forecast — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/forecast-models/theta-forecast")  `D09-F02-A06`
 
 ### Multivariate Systems  `D09-F03`
 
-- ⚪ VAR  `D09-F03-A01`
-- ⚪ Structural VAR  `D09-F03-A02`
-- ⚪ VECM  `D09-F03-A03`
-- ⚪ Impulse-Response Analysis  `D09-F03-A04`
-- ⚪ Forecast-Error Variance Decomposition  `D09-F03-A05`
+- ⚪ VAR — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/multivariate-systems/var")  `D09-F03-A01`
+- ⚪ Structural VAR — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/multivariate-systems/structural-var")  `D09-F03-A02`
+- ⚪ VECM — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/multivariate-systems/vecm")  `D09-F03-A03`
+- ⚪ Impulse-Response Analysis — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/multivariate-systems/impulse-response-analysis")  `D09-F03-A04`
+- ⚪ Forecast-Error Variance Decomposition — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/multivariate-systems/forecast-error-variance-decomposition")  `D09-F03-A05`
 
 ### State and Regime Models  `D09-F04`
 
-- ⚪ Kalman Filter  `D09-F04-A01`
-- ⚪ Extended Kalman Filter  `D09-F04-A02`
-- ⚪ Unscented Kalman Filter  `D09-F04-A03`
-- ⚪ Hidden Markov Model  `D09-F04-A04`
-- ⚪ Markov-Switching Autoregression  `D09-F04-A05`
-- ⚪ Bayesian Change-Point Detection  `D09-F04-A06`
+- ⚪ Kalman Filter — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/kalman-filter")  `D09-F04-A01`
+- ⚪ Extended Kalman Filter — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/extended-kalman-filter")  `D09-F04-A02`
+- ⚪ Unscented Kalman Filter — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/unscented-kalman-filter")  `D09-F04-A03`
+- ⚪ Hidden Markov Model — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/hidden-markov-model")  `D09-F04-A04`
+- ⚪ Markov-Switching Autoregression — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/markov-switching-autoregression")  `D09-F04-A05`
+- ⚪ Bayesian Change-Point Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/statistical-time-series/state-and-regime-models/bayesian-change-point-detection")  `D09-F04-A06`
 
 ### Decomposition and Cycles  `D09-F05`
 
@@ -571,7 +603,7 @@ _Diagnose, model, decompose, and forecast financial sequences while respecting t
 
 _Estimate changing dispersion and co-movement using historical, realized, conditional, and shrinkage methods._
 
-**Domain page:** [thefintechbuilder.com/domains/volatility-and-covariance/](https://thefintechbuilder.com/domains/volatility-and-covariance/)  ·  **4** families  ·  **0/22** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/volatility-and-covariance/](https://thefintechbuilder.com/domains/volatility-and-covariance/)  ·  **4** families  ·  **0/22** published  ·  **0/22** on npm
 
 ### Historical Estimators  `D10-F01`
 
@@ -613,7 +645,7 @@ _Estimate changing dispersion and co-movement using historical, realized, condit
 
 _Study how trades, quotes, liquidity, order flow, and information interact to form market prices._
 
-**Domain page:** [thefintechbuilder.com/domains/market-microstructure/](https://thefintechbuilder.com/domains/market-microstructure/)  ·  **4** families  ·  **0/21** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/market-microstructure/](https://thefintechbuilder.com/domains/market-microstructure/)  ·  **5** families  ·  **0/29** published  ·  **0/29** on npm
 
 ### Trade Classification  `D11-F01`
 
@@ -648,13 +680,24 @@ _Study how trades, quotes, liquidity, order flow, and information interact to fo
 - ⚪ Order-Book Resiliency  `D11-F04-A04`
 - ⚪ Hawkes Order-Arrival Model  `D11-F04-A05`
 
+### Market-Depth Analytics  `D11-F05`
+
+- ⚪ Cumulative Bid/Ask Depth  `D11-F05-A01`
+- ⚪ Top-N Depth Imbalance  `D11-F05-A02`
+- ⚪ Depth-at-Distance Profile  `D11-F05-A03`
+- ⚪ Expected Market-Order Fill Price  `D11-F05-A04`
+- ⚪ Multi-Level Sweep Cost and Slippage  `D11-F05-A05`
+- ⚪ Liquidity-Wall and Concentration Detection  `D11-F05-A06`
+- ⚪ Depth Depletion and Replenishment  `D11-F05-A07`
+- ⚪ Market-Depth Heatmap Aggregation  `D11-F05-A08`
+
 ---
 
 ## D12 — Matching Engines and Venue Logic
 
 _Explain how trading venues prioritize orders, determine auction prices, and enforce market controls._
 
-**Domain page:** [thefintechbuilder.com/domains/matching-engines-and-venue-logic/](https://thefintechbuilder.com/domains/matching-engines-and-venue-logic/)  ·  **3** families  ·  **0/15** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/matching-engines-and-venue-logic/](https://thefintechbuilder.com/domains/matching-engines-and-venue-logic/)  ·  **4** families  ·  **0/21** published  ·  **0/21** on npm
 
 ### Continuous Matching  `D12-F01`
 
@@ -680,13 +723,22 @@ _Explain how trading venues prioritize orders, determine auction prices, and enf
 - ⚪ Fat-Finger Limit  `D12-F03-A05`
 - ⚪ Circuit-Breaker Trigger  `D12-F03-A06`
 
+### Order Lifecycle and Queue State  `D12-F04`
+
+- ⚪ Limit-Order Lifecycle State Machine  `D12-F04-A01`
+- ⚪ Cancel/Replace Priority Rule  `D12-F04-A02`
+- ⚪ Partial-Fill and Residual-Quantity Processing  `D12-F04-A03`
+- ⚪ Queue Position and Ahead-Volume Calculation  `D12-F04-A04`
+- ⚪ Iceberg/Reserve-Order Replenishment  `D12-F04-A05`
+- ⚪ Marketable-Order Multi-Level Sweep  `D12-F04-A06`
+
 ---
 
 ## D13 — Execution and Transaction Cost Analysis
 
 _Plan and evaluate execution so that target trades balance cost, market impact, timing, and completion risk._
 
-**Domain page:** [thefintechbuilder.com/domains/execution-and-transaction-cost-analysis/](https://thefintechbuilder.com/domains/execution-and-transaction-cost-analysis/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/execution-and-transaction-cost-analysis/](https://thefintechbuilder.com/domains/execution-and-transaction-cost-analysis/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Schedule-Based Execution  `D13-F01`
 
@@ -727,7 +779,7 @@ _Plan and evaluate execution so that target trades balance cost, market impact, 
 
 _Convert forecasts, risk estimates, objectives, and real-world constraints into investable portfolios._
 
-**Domain page:** [thefintechbuilder.com/domains/portfolio-construction/](https://thefintechbuilder.com/domains/portfolio-construction/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/portfolio-construction/](https://thefintechbuilder.com/domains/portfolio-construction/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Mean-Risk Optimization  `D14-F01`
 
@@ -767,7 +819,7 @@ _Convert forecasts, risk estimates, objectives, and real-world constraints into 
 
 _Measure ordinary and extreme portfolio losses, identify their sources, and test resilience under stress._
 
-**Domain page:** [thefintechbuilder.com/domains/investment-risk/](https://thefintechbuilder.com/domains/investment-risk/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/investment-risk/](https://thefintechbuilder.com/domains/investment-risk/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Loss Quantiles  `D15-F01`
 
@@ -807,7 +859,7 @@ _Measure ordinary and extreme portfolio losses, identify their sources, and test
 
 _Calculate portfolio performance and explain which decisions, exposures, and risks produced the result._
 
-**Domain page:** [thefintechbuilder.com/domains/performance-and-attribution/](https://thefintechbuilder.com/domains/performance-and-attribution/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/performance-and-attribution/](https://thefintechbuilder.com/domains/performance-and-attribution/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Return Measurement  `D16-F01`
 
@@ -847,7 +899,7 @@ _Calculate portfolio performance and explain which decisions, exposures, and ris
 
 _Construct, neutralize, and evaluate systematic return factors and asset-pricing relationships._
 
-**Domain page:** [thefintechbuilder.com/domains/factor-investing-and-asset-pricing/](https://thefintechbuilder.com/domains/factor-investing-and-asset-pricing/)  ·  **4** families  ·  **0/22** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/factor-investing-and-asset-pricing/](https://thefintechbuilder.com/domains/factor-investing-and-asset-pricing/)  ·  **4** families  ·  **0/22** published  ·  **0/22** on npm
 
 ### Asset-Pricing Models  `D17-F01`
 
@@ -889,7 +941,7 @@ _Construct, neutralize, and evaluate systematic return factors and asset-pricing
 
 _Turn company fundamentals into normalized diagnostics, intrinsic values, relative values, and distress signals._
 
-**Domain page:** [thefintechbuilder.com/domains/fundamental-analysis-and-valuation/](https://thefintechbuilder.com/domains/fundamental-analysis-and-valuation/)  ·  **8** families  ·  **0/58** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/fundamental-analysis-and-valuation/](https://thefintechbuilder.com/domains/fundamental-analysis-and-valuation/)  ·  **8** families  ·  **0/58** published  ·  **0/58** on npm
 
 ### Statement Ratios  `D18-F01`
 
@@ -979,7 +1031,7 @@ _Turn company fundamentals into normalized diagnostics, intrinsic values, relati
 
 _Extract, reconstruct, compare, and validate financial statements and their underlying reported facts._
 
-**Domain page:** [thefintechbuilder.com/domains/financial-statement-intelligence/](https://thefintechbuilder.com/domains/financial-statement-intelligence/)  ·  **6** families  ·  **0/37** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/financial-statement-intelligence/](https://thefintechbuilder.com/domains/financial-statement-intelligence/)  ·  **6** families  ·  **0/37** published  ·  **0/37** on npm
 
 ### Taxonomy and Mapping  `D19-F01`
 
@@ -1044,7 +1096,7 @@ _Extract, reconstruct, compare, and validate financial statements and their unde
 
 _Price fixed-income cash flows, measure rate sensitivity, construct curves, and model interest-rate dynamics._
 
-**Domain page:** [thefintechbuilder.com/domains/fixed-income-and-interest-rates/](https://thefintechbuilder.com/domains/fixed-income-and-interest-rates/)  ·  **5** families  ·  **0/25** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/fixed-income-and-interest-rates/](https://thefintechbuilder.com/domains/fixed-income-and-interest-rates/)  ·  **5** families  ·  **0/25** published  ·  **0/25** on npm
 
 ### Bond Cash Flows and Yields  `D20-F01`
 
@@ -1092,7 +1144,7 @@ _Price fixed-income cash flows, measure rate sensitivity, construct curves, and 
 
 _Estimate default probability, loss severity, exposure, migration, expected credit loss, and concentration risk._
 
-**Domain page:** [thefintechbuilder.com/domains/credit-risk-and-default/](https://thefintechbuilder.com/domains/credit-risk-and-default/)  ·  **5** families  ·  **0/25** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/credit-risk-and-default/](https://thefintechbuilder.com/domains/credit-risk-and-default/)  ·  **5** families  ·  **0/25** published  ·  **0/25** on npm
 
 ### Probability of Default  `D21-F01`
 
@@ -1140,7 +1192,7 @@ _Estimate default probability, loss severity, exposure, migration, expected cred
 
 _Price nonlinear claims, infer volatility, calculate sensitivities, and simulate hedging decisions._
 
-**Domain page:** [thefintechbuilder.com/domains/derivatives-and-options/](https://thefintechbuilder.com/domains/derivatives-and-options/)  ·  **5** families  ·  **0/24** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/derivatives-and-options/](https://thefintechbuilder.com/domains/derivatives-and-options/)  ·  **5** families  ·  **0/24** published  ·  **0/24** on npm
 
 ### Lattice Pricing  `D22-F01`
 
@@ -1187,7 +1239,7 @@ _Price nonlinear claims, infer volatility, calculate sensitivities, and simulate
 
 _Model futures rolls, term structures, commodity benchmarks, inventories, and recurring seasonal effects._
 
-**Domain page:** [thefintechbuilder.com/domains/commodities-and-futures/](https://thefintechbuilder.com/domains/commodities-and-futures/)  ·  **4** families  ·  **0/18** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/commodities-and-futures/](https://thefintechbuilder.com/domains/commodities-and-futures/)  ·  **4** families  ·  **0/18** published  ·  **0/18** on npm
 
 ### Continuous Contracts  `D23-F01`
 
@@ -1225,7 +1277,7 @@ _Model futures rolls, term structures, commodity benchmarks, inventories, and re
 
 _Calculate currency prices, forwards, carry, hedge ratios, and multi-currency risk exposures._
 
-**Domain page:** [thefintechbuilder.com/domains/foreign-exchange/](https://thefintechbuilder.com/domains/foreign-exchange/)  ·  **4** families  ·  **0/17** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/foreign-exchange/](https://thefintechbuilder.com/domains/foreign-exchange/)  ·  **4** families  ·  **0/17** published  ·  **0/17** on npm
 
 ### Spot and Crosses  `D24-F01`
 
@@ -1260,9 +1312,9 @@ _Calculate currency prices, forwards, carry, hedge ratios, and multi-currency ri
 
 ## D25 — Digital Assets and On-Chain Finance
 
-_Analyze automated market makers, liquidations, price oracles, blockchain activity, and token benchmarks._
+_Build and analyze automated market makers, liquidations, price oracles, blockchain integrity, consensus, transaction execution, scaling, custody, on-chain activity, and token benchmarks._
 
-**Domain page:** [thefintechbuilder.com/domains/digital-assets-and-on-chain-finance/](https://thefintechbuilder.com/domains/digital-assets-and-on-chain-finance/)  ·  **5** families  ·  **0/24** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/digital-assets-and-on-chain-finance/](https://thefintechbuilder.com/domains/digital-assets-and-on-chain-finance/)  ·  **10** families  ·  **0/57** published  ·  **0/57** on npm
 
 ### AMM Pricing  `D25-F01`
 
@@ -1280,7 +1332,7 @@ _Analyze automated market makers, liquidations, price oracles, blockchain activi
 - ⚪ Liquidation-Price Calculation  `D25-F02-A04`
 - ⚪ Liquidation Waterfall  `D25-F02-A05`
 
-### Oracle and Consensus  `D25-F03`
+### Oracle Integrity  `D25-F03`
 
 - ⚪ Median Price Oracle  `D25-F03-A01`
 - ⚪ Time-Weighted Oracle Price  `D25-F03-A02`
@@ -1303,13 +1355,61 @@ _Analyze automated market makers, liquidations, price oracles, blockchain activi
 - ⚪ Liquidity-Capped Token Index  `D25-F05-A03`
 - ⚪ Rebalance and Custody Screen  `D25-F05-A04`
 
+### Blockchain Integrity and Proofs  `D25-F06`
+
+- ⚪ Cryptographic Hash-Chained Record Log  `D25-F06-A01`
+- ⚪ Merkle-Root Construction  `D25-F06-A02`
+- ⚪ Merkle Inclusion Proof  `D25-F06-A03`
+- ⚪ Append-Only Consistency Proof  `D25-F06-A04`
+- ⚪ Signed Checkpoint and External Anchoring  `D25-F06-A05`
+- ⚪ Trusted Timestamp Proof  `D25-F06-A06`
+
+### Consensus and Finality  `D25-F07`
+
+- ⚪ Proof-of-Work Chain Selection  `D25-F07-A01`
+- ⚪ Proof-of-Stake Validator Selection  `D25-F07-A02`
+- ⚪ Byzantine-Fault-Tolerant Quorum  `D25-F07-A03`
+- ⚪ Fork-Choice Rule  `D25-F07-A04`
+- ⚪ Confirmation Depth and Reorganization Risk  `D25-F07-A05`
+- ⚪ Slashing and Equivocation Detection  `D25-F07-A06`
+- ⚪ Validator Committee Sampling and Rotation  `D25-F07-A07`
+
+### Transactions and Smart-Contract Execution  `D25-F08`
+
+- ⚪ Transaction Signature Verification  `D25-F08-A01`
+- ⚪ Nonce and Replay Protection  `D25-F08-A02`
+- ⚪ Mempool Ordering and Fee Selection  `D25-F08-A03`
+- ⚪ Block Transaction Ordering  `D25-F08-A04`
+- ⚪ Deterministic State-Transition Validation  `D25-F08-A05`
+- ⚪ Gas Metering and Fee-Market Calculation  `D25-F08-A06`
+- ⚪ Smart-Contract Invariant Checking  `D25-F08-A07`
+
+### Scaling and Interoperability  `D25-F09`
+
+- ⚪ Payment-Channel State Update  `D25-F09-A01`
+- ⚪ Optimistic-Rollup Challenge Verification  `D25-F09-A02`
+- ⚪ Zero-Knowledge Rollup Proof Verification  `D25-F09-A03`
+- ⚪ Data-Availability Sampling  `D25-F09-A04`
+- ⚪ Cross-Chain Message Verification  `D25-F09-A05`
+- ⚪ Bridge Finality-Risk Calculation  `D25-F09-A06`
+- ⚪ Sequencer Ordering and Censorship Detection  `D25-F09-A07`
+
+### Custody and Cryptographic Control  `D25-F10`
+
+- ⚪ Hierarchical Deterministic Key Derivation  `D25-F10-A01`
+- ⚪ Multisignature Authorization  `D25-F10-A02`
+- ⚪ Threshold/MPC Signing  `D25-F10-A03`
+- ⚪ Key Rotation and Recovery  `D25-F10-A04`
+- ⚪ Merkle Proof of Reserves  `D25-F10-A05`
+- ⚪ Custody and Withdrawal Policy Engine  `D25-F10-A06`
+
 ---
 
 ## D26 — Islamic Finance and Sharia Screening
 
 _Apply Sharia screening and model compliant investment, financing, Sukuk, Takaful, purification, and Zakat calculations._
 
-**Domain page:** [thefintechbuilder.com/domains/islamic-finance-and-sharia-screening/](https://thefintechbuilder.com/domains/islamic-finance-and-sharia-screening/)  ·  **5** families  ·  **0/23** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/islamic-finance-and-sharia-screening/](https://thefintechbuilder.com/domains/islamic-finance-and-sharia-screening/)  ·  **5** families  ·  **0/23** published  ·  **0/23** on npm
 
 ### Equity Screening  `D26-F01`
 
@@ -1357,7 +1457,7 @@ _Apply Sharia screening and model compliant investment, financing, Sukuk, Takafu
 
 _Assess borrowers, affordability, pricing, credit limits, repayment behavior, collections, and loan lifetime value._
 
-**Domain page:** [thefintechbuilder.com/domains/lending-and-underwriting/](https://thefintechbuilder.com/domains/lending-and-underwriting/)  ·  **5** families  ·  **0/24** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/lending-and-underwriting/](https://thefintechbuilder.com/domains/lending-and-underwriting/)  ·  **5** families  ·  **0/24** published  ·  **0/24** on npm
 
 ### Application Scoring  `D27-F01`
 
@@ -1404,7 +1504,7 @@ _Assess borrowers, affordability, pricing, credit limits, repayment behavior, co
 
 _Authorize, route, recover, price, settle, and reconcile digital payments and money movement._
 
-**Domain page:** [thefintechbuilder.com/domains/payments-and-money-movement/](https://thefintechbuilder.com/domains/payments-and-money-movement/)  ·  **5** families  ·  **0/25** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/payments-and-money-movement/](https://thefintechbuilder.com/domains/payments-and-money-movement/)  ·  **5** families  ·  **0/25** published  ·  **0/25** on npm
 
 ### Authorization  `D28-F01`
 
@@ -1452,7 +1552,7 @@ _Authorize, route, recover, price, settle, and reconcile digital payments and mo
 
 _Detect suspicious transactions, coordinated networks, sanctions matches, and account-takeover behavior._
 
-**Domain page:** [thefintechbuilder.com/domains/fraud-aml-and-financial-crime/](https://thefintechbuilder.com/domains/fraud-aml-and-financial-crime/)  ·  **6** families  ·  **0/31** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/fraud-aml-and-financial-crime/](https://thefintechbuilder.com/domains/fraud-aml-and-financial-crime/)  ·  **6** families  ·  **0/31** published  ·  **0/31** on npm
 
 ### Transaction Rules  `D29-F01`
 
@@ -1509,7 +1609,7 @@ _Detect suspicious transactions, coordinated networks, sanctions matches, and ac
 
 _Maintain correct balances through controlled posting, accrual, reconciliation, and financial close processes._
 
-**Domain page:** [thefintechbuilder.com/domains/banking-ledger-and-reconciliation/](https://thefintechbuilder.com/domains/banking-ledger-and-reconciliation/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/banking-ledger-and-reconciliation/](https://thefintechbuilder.com/domains/banking-ledger-and-reconciliation/)  ·  **5** families  ·  **0/28** published  ·  **0/28** on npm
 
 ### Ledger Posting  `D30-F01`
 
@@ -1543,13 +1643,24 @@ _Maintain correct balances through controlled posting, accrual, reconciliation, 
 - ⚪ FX Revaluation Posting  `D30-F04-A04`
 - ⚪ Period-Lock Control  `D30-F04-A05`
 
+### Tamper-Evident Ledger Integrity  `D30-F05`
+
+- ⚪ Append-Only Journal Enforcement  `D30-F05-A01`
+- ⚪ Correcting and Reversing Entry Algorithm  `D30-F05-A02`
+- ⚪ Bitemporal Ledger Versioning  `D30-F05-A03`
+- ⚪ Hash-Chained Journal  `D30-F05-A04`
+- ⚪ Merkle-Batched Journal Commitment  `D30-F05-A05`
+- ⚪ Signed Ledger Checkpoint  `D30-F05-A06`
+- ⚪ External WORM/Blockchain Anchor  `D30-F05-A07`
+- ⚪ End-to-End Ledger Integrity Verification  `D30-F05-A08`
+
 ---
 
 ## D31 — Treasury, Liquidity, and Asset-Liability Management
 
 _Forecast liquidity, measure funding and interest-rate risk, and allocate balance-sheet funding costs._
 
-**Domain page:** [thefintechbuilder.com/domains/treasury-liquidity-and-asset-liability-management/](https://thefintechbuilder.com/domains/treasury-liquidity-and-asset-liability-management/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/treasury-liquidity-and-asset-liability-management/](https://thefintechbuilder.com/domains/treasury-liquidity-and-asset-liability-management/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Cash and Liquidity Forecasting  `D31-F01`
 
@@ -1589,7 +1700,7 @@ _Forecast liquidity, measure funding and interest-rate risk, and allocate balanc
 
 _Model insurance claims, premiums, reserves, credibility, survival, and catastrophe exposure._
 
-**Domain page:** [thefintechbuilder.com/domains/insurance-and-actuarial-science/](https://thefintechbuilder.com/domains/insurance-and-actuarial-science/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/insurance-and-actuarial-science/](https://thefintechbuilder.com/domains/insurance-and-actuarial-science/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Frequency and Severity  `D32-F01`
 
@@ -1629,7 +1740,7 @@ _Model insurance claims, premiums, reserves, credibility, survival, and catastro
 
 _Translate client goals, preferences, capacity, and constraints into suitable, continuously managed portfolios._
 
-**Domain page:** [thefintechbuilder.com/domains/wealth-and-robo-advice/](https://thefintechbuilder.com/domains/wealth-and-robo-advice/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/wealth-and-robo-advice/](https://thefintechbuilder.com/domains/wealth-and-robo-advice/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Profiling and Suitability  `D33-F01`
 
@@ -1669,7 +1780,7 @@ _Translate client goals, preferences, capacity, and constraints into suitable, c
 
 _Choose tax lots and realization strategies that improve after-tax outcomes while respecting accounting rules._
 
-**Domain page:** [thefintechbuilder.com/domains/tax-lot-and-accounting-optimization/](https://thefintechbuilder.com/domains/tax-lot-and-accounting-optimization/)  ·  **3** families  ·  **0/15** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/tax-lot-and-accounting-optimization/](https://thefintechbuilder.com/domains/tax-lot-and-accounting-optimization/)  ·  **3** families  ·  **0/15** published  ·  **0/15** on npm
 
 ### Cost Basis  `D34-F01`
 
@@ -1701,7 +1812,7 @@ _Choose tax lots and realization strategies that improve after-tax outcomes whil
 
 _Extract entities, facts, sentiment, events, and evidence from financial language and documents._
 
-**Domain page:** [thefintechbuilder.com/domains/financial-nlp-and-document-intelligence/](https://thefintechbuilder.com/domains/financial-nlp-and-document-intelligence/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/financial-nlp-and-document-intelligence/](https://thefintechbuilder.com/domains/financial-nlp-and-document-intelligence/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Text Normalization  `D35-F01`
 
@@ -1741,7 +1852,7 @@ _Extract entities, facts, sentiment, events, and evidence from financial languag
 
 _Convert geospatial, digital, transactional, and supply-chain observations into bias-aware financial signals._
 
-**Domain page:** [thefintechbuilder.com/domains/alternative-data-analytics/](https://thefintechbuilder.com/domains/alternative-data-analytics/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/alternative-data-analytics/](https://thefintechbuilder.com/domains/alternative-data-analytics/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Geospatial  `D36-F01`
 
@@ -1782,7 +1893,7 @@ _Convert geospatial, digital, transactional, and supply-chain observations into 
 
 _Build and calibrate predictive models for tabular, probabilistic, and sequential financial problems._
 
-**Domain page:** [thefintechbuilder.com/domains/forecasting-and-machine-learning/](https://thefintechbuilder.com/domains/forecasting-and-machine-learning/)  ·  **5** families  ·  **0/27** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/forecasting-and-machine-learning/](https://thefintechbuilder.com/domains/forecasting-and-machine-learning/)  ·  **5** families  ·  **0/27** published  ·  **0/27** on npm
 
 ### Linear and Regularized Models  `D37-F01`
 
@@ -1832,7 +1943,7 @@ _Build and calibrate predictive models for tabular, probabilistic, and sequentia
 
 _Estimate causal effects through experiments and quasi-experiments rather than relying on prediction alone._
 
-**Domain page:** [thefintechbuilder.com/domains/causal-inference-and-experimentation/](https://thefintechbuilder.com/domains/causal-inference-and-experimentation/)  ·  **4** families  ·  **0/18** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/causal-inference-and-experimentation/](https://thefintechbuilder.com/domains/causal-inference-and-experimentation/)  ·  **4** families  ·  **0/18** published  ·  **0/18** on npm
 
 ### Randomized Experiments  `D38-F01`
 
@@ -1870,7 +1981,7 @@ _Estimate causal effects through experiments and quasi-experiments rather than r
 
 _Search for feasible financial decisions and quantify uncertainty through optimization, resampling, and simulation._
 
-**Domain page:** [thefintechbuilder.com/domains/optimization-and-simulation/](https://thefintechbuilder.com/domains/optimization-and-simulation/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/optimization-and-simulation/](https://thefintechbuilder.com/domains/optimization-and-simulation/)  ·  **4** families  ·  **0/20** published  ·  **0/20** on npm
 
 ### Mathematical Optimization  `D39-F01`
 
@@ -1910,7 +2021,7 @@ _Search for feasible financial decisions and quantify uncertainty through optimi
 
 _Test whether models and strategies survive time, bias controls, statistical scrutiny, and production drift._
 
-**Domain page:** [thefintechbuilder.com/domains/model-validation-and-backtesting/](https://thefintechbuilder.com/domains/model-validation-and-backtesting/)  ·  **4** families  ·  **0/21** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/model-validation-and-backtesting/](https://thefintechbuilder.com/domains/model-validation-and-backtesting/)  ·  **4** families  ·  **0/21** published  ·  **0/21** on npm
 
 ### Time-Aware Validation  `D40-F01`
 
@@ -1951,7 +2062,7 @@ _Test whether models and strategies survive time, bias controls, statistical scr
 
 _Make automated financial decisions explainable, fair, reviewable, and governed throughout their lifecycle._
 
-**Domain page:** [thefintechbuilder.com/domains/explainability-fairness-and-governance/](https://thefintechbuilder.com/domains/explainability-fairness-and-governance/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/explainability-fairness-and-governance/](https://thefintechbuilder.com/domains/explainability-fairness-and-governance/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Global Explainability  `D41-F01`
 
@@ -1986,11 +2097,11 @@ _Make automated financial decisions explainable, fair, reviewable, and governed 
 
 ---
 
-## D42 — Identity, Cybersecurity, and Trust
+## D42 — Digital Identity and Trust
 
-_Establish identity, adapt authentication, detect threats, and assign assurance levels to financial interactions._
+_Prove who is acting, adapt authentication, detect identity-centric threats, and assign assurance levels to financial interactions._
 
-**Domain page:** [thefintechbuilder.com/domains/identity-cybersecurity-and-trust/](https://thefintechbuilder.com/domains/identity-cybersecurity-and-trust/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/digital-identity-and-trust/](https://thefintechbuilder.com/domains/digital-identity-and-trust/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Identity Proofing  `D42-F01`
 
@@ -2008,7 +2119,7 @@ _Establish identity, adapt authentication, detect threats, and assign assurance 
 - ⚪ Behavioral-Biometric Score  `D42-F02-A04`
 - ⚪ Session-Trust Score  `D42-F02-A05`
 
-### Threat Detection  `D42-F03`
+### Identity Threat Detection  `D42-F03`
 
 - ⚪ Bot-Activity Detection  `D42-F03-A01`
 - ⚪ Credential-Stuffing Detection  `D42-F03-A02`
@@ -2029,7 +2140,7 @@ _Establish identity, adapt authentication, detect threats, and assign assurance 
 
 _Calculate obligations, margin, collateral, settlement, and custody entitlements after a trade is executed._
 
-**Domain page:** [thefintechbuilder.com/domains/clearing-settlement-and-custody/](https://thefintechbuilder.com/domains/clearing-settlement-and-custody/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/clearing-settlement-and-custody/](https://thefintechbuilder.com/domains/clearing-settlement-and-custody/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Netting and Obligations  `D43-F01`
 
@@ -2068,7 +2179,7 @@ _Calculate obligations, margin, collateral, settlement, and custody entitlements
 
 _Connect product prices and customer behavior to revenue, margin, retention, and sustainable unit economics._
 
-**Domain page:** [thefintechbuilder.com/domains/product-pricing-and-unit-economics/](https://thefintechbuilder.com/domains/product-pricing-and-unit-economics/)  ·  **4** families  ·  **0/19** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/product-pricing-and-unit-economics/](https://thefintechbuilder.com/domains/product-pricing-and-unit-economics/)  ·  **4** families  ·  **0/19** published  ·  **0/19** on npm
 
 ### Pricing  `D44-F01`
 
@@ -2107,7 +2218,7 @@ _Connect product prices and customer behavior to revenue, margin, retention, and
 
 _Translate regulatory obligations into consistent calculations, controls, evidence, reporting, and change management._
 
-**Domain page:** [thefintechbuilder.com/domains/regulatory-and-compliance-automation/](https://thefintechbuilder.com/domains/regulatory-and-compliance-automation/)  ·  **4** families  ·  **0/20** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/regulatory-and-compliance-automation/](https://thefintechbuilder.com/domains/regulatory-and-compliance-automation/)  ·  **5** families  ·  **0/27** published  ·  **0/27** on npm
 
 ### Rules and Eligibility  `D45-F01`
 
@@ -2141,6 +2252,16 @@ _Translate regulatory obligations into consistent calculations, controls, eviden
 - ⚪ Compliance-Gap Scoring  `D45-F04-A04`
 - ⚪ Regulatory-Impact Classification  `D45-F04-A05`
 
+### Regulatory Records and Evidence  `D45-F05`
+
+- ⚪ Jurisdictional Retention-Rule Resolver  `D45-F05-A01`
+- ⚪ WORM Object-Retention Policy  `D45-F05-A02`
+- ⚪ Legal-Hold Enforcement  `D45-F05-A03`
+- ⚪ Evidence Chain-of-Custody Manifest  `D45-F05-A04`
+- ⚪ Regulatory Evidence Export  `D45-F05-A05`
+- ⚪ Retention Expiry and Destruction Proof  `D45-F05-A06`
+- ⚪ Crypto-Shredding Eligibility and Key Destruction  `D45-F05-A07`
+
 ---
 
 # Earnings, Forecasting, and Fair Value
@@ -2149,7 +2270,7 @@ _Translate regulatory obligations into consistent calculations, controls, eviden
 
 _Calculate reported and analytical earnings per share, model potential dilution, explain EPS growth, and evaluate per-share value creation._
 
-**Domain page:** [thefintechbuilder.com/domains/earnings-and-per-share-analytics/](https://thefintechbuilder.com/domains/earnings-and-per-share-analytics/)  ·  **6** families  ·  **5/49** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/earnings-and-per-share-analytics/](https://thefintechbuilder.com/domains/earnings-and-per-share-analytics/)  ·  **6** families  ·  **5/49** published  ·  **5/49** on npm
 
 ### Earnings and Share Foundations  `D46-F01`
 
@@ -2157,17 +2278,17 @@ _Calculate reported and analytical earnings per share, model potential dilution,
 - ⚪ Preference-Dividend Numerator Adjustment  `D46-F01-A02`
 - ⚪ Weighted-Average Ordinary Shares  `D46-F01-A03`
 - ⚪ Treasury-Share Exclusion  `D46-F01-A04`
-- 🟢 [Stock-Split/Consolidation EPS Restatement](https://thefintechbuilder.com/earnings-and-per-share-analytics/earnings-and-share-foundations/stock-split-consolidation-eps-restatement/)  `D46-F01-A05`
+- 🟢 [Stock-Split/Consolidation EPS Restatement](https://thefintechbuilder.com/earnings-and-per-share-analytics/earnings-and-share-foundations/stock-split-consolidation-eps-restatement/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/earnings-and-per-share-analytics/earnings-and-share-foundations/stock-split-consolidation-eps-restatement")  `D46-F01-A05`
 - ⚪ Bonus-Issue EPS Restatement  `D46-F01-A06`
 - ⚪ Rights-Issue Bonus-Factor Adjustment  `D46-F01-A07`
-- 🟢 [Basic EPS](https://thefintechbuilder.com/earnings-and-per-share-analytics/earnings-and-share-foundations/basic-eps/)  `D46-F01-A08`
+- 🟢 [Basic EPS](https://thefintechbuilder.com/earnings-and-per-share-analytics/earnings-and-share-foundations/basic-eps/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/earnings-and-per-share-analytics/earnings-and-share-foundations/basic-eps")  `D46-F01-A08`
 
 ### Basic and Diluted EPS  `D46-F02`
 
 - ⚪ If-Converted Convertible-Debt Dilution  `D46-F02-A01`
-- 🟢 [If-Converted Convertible-Preference Dilution](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/if-converted-convertible-preference-dilution/)  `D46-F02-A02`
-- 🟢 [Treasury-Share Method for Options/Warrants](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/treasury-share-method-for-options-warrants/)  `D46-F02-A03`
-- 🟢 [Contingently Issuable Share Inclusion](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/contingently-issuable-share-inclusion/)  `D46-F02-A04`
+- 🟢 [If-Converted Convertible-Preference Dilution](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/if-converted-convertible-preference-dilution/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/earnings-and-per-share-analytics/basic-and-diluted-eps/if-converted-convertible-preference-dilution")  `D46-F02-A02`
+- 🟢 [Treasury-Share Method for Options/Warrants](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/treasury-share-method-for-options-warrants/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/earnings-and-per-share-analytics/basic-and-diluted-eps/treasury-share-method-for-options-warrants")  `D46-F02-A03`
+- 🟢 [Contingently Issuable Share Inclusion](https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/contingently-issuable-share-inclusion/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/earnings-and-per-share-analytics/basic-and-diluted-eps/contingently-issuable-share-inclusion")  `D46-F02-A04`
 - ⚪ Participating-Security Two-Class Allocation  `D46-F02-A05`
 - ⚪ Written-Put and Forward-Purchase Dilution  `D46-F02-A06`
 - ⚪ Dilutive-Instrument Ordering  `D46-F02-A07`
@@ -2224,7 +2345,7 @@ _Calculate reported and analytical earnings per share, model potential dilution,
 
 _Convert historical fundamentals and operating assumptions into integrated forecasts, scenarios, consensus measures, and validated financial models._
 
-**Domain page:** [thefintechbuilder.com/domains/corporate-forecasting-and-financial-model-engineering/](https://thefintechbuilder.com/domains/corporate-forecasting-and-financial-model-engineering/)  ·  **8** families  ·  **0/52** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/corporate-forecasting-and-financial-model-engineering/](https://thefintechbuilder.com/domains/corporate-forecasting-and-financial-model-engineering/)  ·  **8** families  ·  **0/52** published  ·  **0/52** on npm
 
 ### Revenue Forecasting  `D47-F01`
 
@@ -2308,7 +2429,7 @@ _Convert historical fundamentals and operating assumptions into integrated forec
 
 _Apply market-participant fair-value principles, classify input observability, select valuation approaches, calculate adjustments, and govern independent valuation controls._
 
-**Domain page:** [thefintechbuilder.com/domains/fair-value-measurement-and-valuation-control/](https://thefintechbuilder.com/domains/fair-value-measurement-and-valuation-control/)  ·  **8** families  ·  **0/47** algorithms published
+**Domain page:** [thefintechbuilder.com/domains/fair-value-measurement-and-valuation-control/](https://thefintechbuilder.com/domains/fair-value-measurement-and-valuation-control/)  ·  **8** families  ·  **0/47** published  ·  **0/47** on npm
 
 ### Fair-Value Framework  `D48-F01`
 
@@ -2383,12 +2504,100 @@ _Apply market-participant fair-value principles, classify input observability, s
 
 ---
 
+# Financial Cybersecurity Engineering
+
+## D49 — Financial Cybersecurity Engineering
+
+_Engineer access, APIs, data protection, monitoring, incident response, resilience, secure software delivery, and third-party controls for financial workflows._
+
+**Domain page:** [thefintechbuilder.com/domains/financial-cybersecurity-engineering/](https://thefintechbuilder.com/domains/financial-cybersecurity-engineering/)  ·  **8** families  ·  **0/40** published  ·  **0/40** on npm
+
+### Cyber Risk and Threat Modeling  `D49-F01`
+
+- ⚪ Critical Financial Asset Classification  `D49-F01-A01`
+- ⚪ Financial Threat Scenario Decomposition  `D49-F01-A02`
+- ⚪ Attack-Path Graph Construction  `D49-F01-A03`
+- ⚪ Cyber-Risk Likelihood and Impact Score  `D49-F01-A04`
+- ⚪ Security-Control Coverage Gap  `D49-F01-A05`
+
+### Access Control and Privileged Access  `D49-F02`
+
+- ⚪ Role-Based Access Resolution  `D49-F02-A01`
+- ⚪ Attribute-Based Access Policy Evaluation  `D49-F02-A02`
+- ⚪ Segregation-of-Duties Conflict Detection  `D49-F02-A03`
+- ⚪ Just-in-Time Privileged Access Decision  `D49-F02-A04`
+- ⚪ Dormant and Orphaned Access Detection  `D49-F02-A05`
+
+### API and Service Security  `D49-F03`
+
+- ⚪ OAuth/OIDC Token Validation  `D49-F03-A01`
+- ⚪ Mutual-TLS Service Identity Validation  `D49-F03-A02`
+- ⚪ API Request and Webhook Signature Verification  `D49-F03-A03`
+- ⚪ Nonce, Timestamp, and Replay-Protection Guard  `D49-F03-A04`
+- ⚪ Adaptive API Abuse and Rate-Limit Control  `D49-F03-A05`
+
+### Data, Secrets, and Cryptographic Protection  `D49-F04`
+
+- ⚪ Financial-Data Classification and Handling Policy  `D49-F04-A01`
+- ⚪ Envelope-Encryption Policy  `D49-F04-A02`
+- ⚪ Financial-Data Tokenization  `D49-F04-A03`
+- ⚪ KMS/HSM Key-Rotation Scheduler  `D49-F04-A04`
+- ⚪ Certificate and Secret Expiry Risk  `D49-F04-A05`
+
+### Security Monitoring and Detection Engineering  `D49-F05`
+
+- ⚪ Security-Event Normalization  `D49-F05-A01`
+- ⚪ Detection-Rule Correlation  `D49-F05-A02`
+- ⚪ User and Entity Behavior Anomaly  `D49-F05-A03`
+- ⚪ Security-Alert Severity and Prioritization  `D49-F05-A04`
+- ⚪ Detection-Coverage and Drift Monitor  `D49-F05-A05`
+
+### Incident Response and Digital Forensics  `D49-F06`
+
+- ⚪ Cyber-Incident Severity Classification  `D49-F06-A01`
+- ⚪ Containment-Action Decision Engine  `D49-F06-A02`
+- ⚪ Forensic-Evidence Preservation Manifest  `D49-F06-A03`
+- ⚪ Breach-Notification Deadline Resolver  `D49-F06-A04`
+- ⚪ Post-Incident Control-Improvement Prioritization  `D49-F06-A05`
+
+### Resilience, Recovery, and Ransomware Defense  `D49-F07`
+
+- ⚪ Critical Financial Service Recovery Priority  `D49-F07-A01`
+- ⚪ Immutable-Backup Integrity Verification  `D49-F07-A02`
+- ⚪ Recovery-Point and Recovery-Time Compliance  `D49-F07-A03`
+- ⚪ Ransomware Blast-Radius Estimation  `D49-F07-A04`
+- ⚪ Disaster-Recovery Exercise Score  `D49-F07-A05`
+
+### Secure SDLC, Supply Chain, and Third-Party Risk  `D49-F08`
+
+- ⚪ Dependency-Vulnerability Prioritization  `D49-F08-A01`
+- ⚪ SBOM Exposure Graph  `D49-F08-A02`
+- ⚪ Build-Artifact Provenance Verification  `D49-F08-A03`
+- ⚪ Third-Party Cyber-Risk Score  `D49-F08-A04`
+- ⚪ Cloud-Security Posture Drift Detection  `D49-F08-A05`
+
+---
+
+## How the three signals relate
+
+| | [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (📥) | per-algorithm repos (📦) |
+|---|---|---|
+| Scope | one install, every implemented algorithm | one algorithm per repo |
+| Languages | TypeScript | Python **and** TypeScript |
+| Use it when | you want to call the algorithm in an app | you want to read, port, or extend it |
+| Extras | provider-agnostic subpath modules | streaming engines, algorithm-specific analysis surfaces, deeper test suites |
+
+They are complements, not alternatives — the package is the fastest path to a
+working call, and a dedicated repo is where an algorithm is taken apart in full.
+
 ## About this list
 
-This index is generated from the live catalog and the site sitemap by
-[`scripts/generate_awesome.mjs`](scripts/generate_awesome.mjs). Article links are
-verified against [`data/sitemap-live-topics.txt`](data/sitemap-live-topics.txt), so a
-link only appears once the article is actually published. Re-run the script to refresh.
+This index is generated from the live catalog, the site sitemap, and the npm
+package's own manifest by [`scripts/generate_awesome.mjs`](scripts/generate_awesome.mjs).
+Article links are verified against [`data/sitemap-live-topics.txt`](data/sitemap-live-topics.txt),
+so a link only appears once the article is actually published; npm coverage comes from
+[`data/npm-package-topics.tsv`](data/npm-package-topics.tsv), refreshed by
+[`scripts/refresh_npm_coverage.mjs`](scripts/refresh_npm_coverage.mjs). Re-run both to refresh.
 
 Maintained alongside the per-algorithm open-source repositories. See the
 [EMA repo](https://github.com/IslamBaraka90/Fintech-EMA-Exponential-Moving-Average-algorithm)
