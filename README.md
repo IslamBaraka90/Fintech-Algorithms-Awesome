@@ -294,7 +294,7 @@ _Measure the participation, strength, and concentration hidden beneath headline 
 
 ### McClellan Family  `D04-F02`
 
-- 🟢 [Traditional McClellan Oscillator](https://thefintechbuilder.com/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator")  `D04-F02-A01`
+- 🟢 [Traditional McClellan Oscillator](https://thefintechbuilder.com/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-oscillator") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-McClellan-Oscillator-Market-Breadth-algorithm)  `D04-F02-A01`
 - ⚪ Ratio-Adjusted McClellan Oscillator — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/ratio-adjusted-mcclellan-oscillator")  `D04-F02-A02`
 - ⚪ Traditional McClellan Summation Index — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/traditional-mcclellan-summation-index")  `D04-F02-A03`
 - ⚪ Ratio-Adjusted Summation Index (RASI) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-breadth-and-internals/mcclellan-family/ratio-adjusted-summation-index-rasi")  `D04-F02-A04`
