@@ -6,8 +6,8 @@
 
 <p>
   <img alt="Domains" src="https://img.shields.io/badge/domains-49-2b6cb0">
-  <img alt="Families" src="https://img.shields.io/badge/families-245-2b6cb0">
-  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1356-2b6cb0">
+  <img alt="Families" src="https://img.shields.io/badge/families-248-2b6cb0">
+  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1399-2b6cb0">
   <img alt="Published" src="https://img.shields.io/badge/published%20articles-103-brightgreen">
   <img alt="On npm" src="https://img.shields.io/badge/on%20npm-271-cb3837">
 </p>
@@ -148,13 +148,13 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 - 🟢 [Previous-Tick Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/previous-tick-interpolation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/previous-tick-interpolation") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Previous-Tick-Interpolation-Time-Synchronization-algorithm)  `D01-F03-A01`
 - 🟢 [Linear Quote Interpolation](https://thefintechbuilder.com/market-data-engineering/time-synchronization/linear-quote-interpolation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/linear-quote-interpolation") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Linear-Quote-Interpolation-Time-Synchronization-algorithm)  `D01-F03-A02`
 - 🟢 [Refresh-Time Sampling](https://thefintechbuilder.com/market-data-engineering/time-synchronization/refresh-time-sampling/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/refresh-time-sampling") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Refresh-Time-Sampling-Time-Synchronization-algorithm)  `D01-F03-A03`
-- 🟢 [Exchange-Calendar Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/exchange-calendar-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/exchange-calendar-alignment")  `D01-F03-A04`
-- 🟢 [Asynchronous Return Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/asynchronous-return-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/asynchronous-return-alignment")  `D01-F03-A05`
+- 🟢 [Exchange-Calendar Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/exchange-calendar-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/exchange-calendar-alignment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Exchange-Calendar-Alignment-Time-Synchronization-algorithm)  `D01-F03-A04`
+- 🟢 [Asynchronous Return Alignment](https://thefintechbuilder.com/market-data-engineering/time-synchronization/asynchronous-return-alignment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/time-synchronization/asynchronous-return-alignment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Asynchronous-Return-Alignment-Time-Synchronization-algorithm)  `D01-F03-A05`
 
 ### Data Quality  `D01-F04`
 
 - 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/missing-bar-gap-classifier") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Missing-Bar-Gap-Classifier-algorithm)  `D01-F04-A01`
-- 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/feed-latency-monitor")  `D01-F04-A02`
+- 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/feed-latency-monitor") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Feed-Latency-Monitor-Data-Quality-algorithm)  `D01-F04-A02`
 - 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/price-source-consensus-check")  `D01-F04-A03`
 - 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/schema-drift-detector")  `D01-F04-A04`
 - 🟢 [Point-in-Time Availability Guard](https://thefintechbuilder.com/market-data-engineering/data-quality/point-in-time-availability-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/point-in-time-availability-guard")  `D01-F04-A05`
@@ -976,7 +976,7 @@ _Construct, neutralize, and evaluate systematic return factors and asset-pricing
 
 _Turn company fundamentals into normalized diagnostics, intrinsic values, relative values, and distress signals._
 
-**Domain page:** [thefintechbuilder.com/domains/fundamental-analysis-and-valuation/](https://thefintechbuilder.com/domains/fundamental-analysis-and-valuation/)  ·  **8** families  ·  **0/58** published  ·  **0/58** on npm
+**Domain page:** [thefintechbuilder.com/domains/fundamental-analysis-and-valuation/](https://thefintechbuilder.com/domains/fundamental-analysis-and-valuation/)  ·  **10** families  ·  **0/89** published  ·  **0/89** on npm
 
 ### Statement Ratios  `D18-F01`
 
@@ -1010,6 +1010,14 @@ _Turn company fundamentals into normalized diagnostics, intrinsic values, relati
 - ⚪ Beneish M-Score  `D18-F04-A03`
 - ⚪ Sloan Accrual Measure  `D18-F04-A04`
 - ⚪ Ohlson O-Score  `D18-F04-A05`
+- ⚪ Zmijewski X-Score  `D18-F04-A06`
+- ⚪ Springate S-Score  `D18-F04-A07`
+- ⚪ Taffler Z-Score  `D18-F04-A08`
+- ⚪ Fulmer H-Score  `D18-F04-A09`
+- ⚪ Grover G-Score  `D18-F04-A10`
+- ⚪ Dechow F-Score for Misstatement Risk  `D18-F04-A11`
+- ⚪ Dechow-Dichev Accrual Quality  `D18-F04-A12`
+- ⚪ Modified Jones Discretionary Accrual Model  `D18-F04-A13`
 
 ### Cost of Capital and Discount Rates  `D18-F05`
 
@@ -1059,6 +1067,35 @@ _Turn company fundamentals into normalized diagnostics, intrinsic values, relati
 - ⚪ Valuation-Method Reconciliation  `D18-F08-A06`
 - ⚪ Implied-Expectation Analysis  `D18-F08-A07`
 - ⚪ Valuation Confidence Score  `D18-F08-A08`
+
+### Integrated Equity Scoring  `D18-F09`
+
+- ⚪ Point-in-Time Stock-Scoring Input Assembly  `D18-F09-A01`
+- ⚪ Stock-Scoring Peer Cohort Resolver  `D18-F09-A02`
+- ⚪ Fundamental Metric Direction and Peer Normalization  `D18-F09-A03`
+- ⚪ Model Applicability and Variant Router  `D18-F09-A04`
+- ⚪ Accounting Financial-Health Composite  `D18-F09-A05`
+- ⚪ Earnings-Quality Composite  `D18-F09-A06`
+- ⚪ Dividend Safety Score  `D18-F09-A07`
+- ⚪ Balance-Sheet Resilience Score  `D18-F09-A08`
+- ⚪ Distress-Model Ensemble  `D18-F09-A09`
+- ⚪ Cross-Model Conflict and Double-Counting Resolver  `D18-F09-A10`
+- ⚪ Overall Explainable Stock Score  `D18-F09-A11`
+- ⚪ Score Confidence, Missing-Data Penalty, and Abstention  `D18-F09-A12`
+- ⚪ Market-Wide Stock Screening and Ranking  `D18-F09-A13`
+- ⚪ Stock Score History, Migration, and Change Attribution  `D18-F09-A14`
+
+### Sector-Specific Equity Scoring  `D18-F10`
+
+- ⚪ Bank Fundamental Score  `D18-F10-A01`
+- ⚪ Insurance Fundamental Score  `D18-F10-A02`
+- ⚪ REIT Fundamental Score  `D18-F10-A03`
+- ⚪ Utility Fundamental Score  `D18-F10-A04`
+- ⚪ Early-Stage Liquidity and Runway Score  `D18-F10-A05`
+- ⚪ Cyclical and Commodity-Cycle Normalization  `D18-F10-A06`
+- ⚪ Holding-Company Look-Through Score  `D18-F10-A07`
+- ⚪ Sector-Specific Weight Calibration  `D18-F10-A08`
+- ⚪ Unsupported-Scope and Coverage Decision  `D18-F10-A09`
 
 ---
 
@@ -1179,7 +1216,7 @@ _Price fixed-income cash flows, measure rate sensitivity, construct curves, and 
 
 _Estimate default probability, loss severity, exposure, migration, expected credit loss, and concentration risk._
 
-**Domain page:** [thefintechbuilder.com/domains/credit-risk-and-default/](https://thefintechbuilder.com/domains/credit-risk-and-default/)  ·  **5** families  ·  **0/25** published  ·  **0/25** on npm
+**Domain page:** [thefintechbuilder.com/domains/credit-risk-and-default/](https://thefintechbuilder.com/domains/credit-risk-and-default/)  ·  **5** families  ·  **0/27** published  ·  **0/27** on npm
 
 ### Probability of Default  `D21-F01`
 
@@ -1188,6 +1225,8 @@ _Estimate default probability, loss severity, exposure, migration, expected cred
 - ⚪ Through-the-Cycle PD  `D21-F01-A03`
 - ⚪ Point-in-Time PD  `D21-F01-A04`
 - ⚪ Merton Distance-to-Default  `D21-F01-A05`
+- ⚪ Campbell-Hilscher-Szilagyi Distress Probability  `D21-F01-A06`
+- ⚪ Bharath-Shumway Naive Distance-to-Default  `D21-F01-A07`
 
 ### Loss and Exposure  `D21-F02`
 
@@ -2056,7 +2095,7 @@ _Search for feasible financial decisions and quantify uncertainty through optimi
 
 _Test whether models and strategies survive time, bias controls, statistical scrutiny, and production drift._
 
-**Domain page:** [thefintechbuilder.com/domains/model-validation-and-backtesting/](https://thefintechbuilder.com/domains/model-validation-and-backtesting/)  ·  **4** families  ·  **0/21** published  ·  **0/21** on npm
+**Domain page:** [thefintechbuilder.com/domains/model-validation-and-backtesting/](https://thefintechbuilder.com/domains/model-validation-and-backtesting/)  ·  **5** families  ·  **0/31** published  ·  **0/31** on npm
 
 ### Time-Aware Validation  `D40-F01`
 
@@ -2090,6 +2129,19 @@ _Test whether models and strategies survive time, bias controls, statistical scr
 - ⚪ Prediction Drift Detection  `D40-F04-A03`
 - ⚪ Calibration Drift  `D40-F04-A04`
 - ⚪ Champion/Challenger Test  `D40-F04-A05`
+
+### Classification and Score Validation  `D40-F05`
+
+- ⚪ ROC Curve and ROC-AUC  `D40-F05-A01`
+- ⚪ Precision-Recall Curve and PR-AUC  `D40-F05-A02`
+- ⚪ Brier Score  `D40-F05-A03`
+- ⚪ Log Loss  `D40-F05-A04`
+- ⚪ Reliability Diagram and Expected Calibration Error  `D40-F05-A05`
+- ⚪ Gains, Lift, and Decile Capture  `D40-F05-A06`
+- ⚪ Cost-Sensitive Threshold Optimization  `D40-F05-A07`
+- ⚪ Score Stability and Migration Matrix  `D40-F05-A08`
+- ⚪ Slice-Based Validation by Sector, Country, and Regime  `D40-F05-A09`
+- ⚪ Rare-Event Backtest and Confidence Bounds  `D40-F05-A10`
 
 ---
 
