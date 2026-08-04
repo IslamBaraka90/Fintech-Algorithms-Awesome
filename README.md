@@ -9,12 +9,12 @@
   <img alt="Families" src="https://img.shields.io/badge/families-248-2b6cb0">
   <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1399-2b6cb0">
   <img alt="Published" src="https://img.shields.io/badge/published%20articles-103-brightgreen">
-  <img alt="On npm" src="https://img.shields.io/badge/on%20npm-271-cb3837">
+  <img alt="On npm" src="https://img.shields.io/badge/on%20npm-324-cb3837">
 </p>
 
 🌐 **Website:** [thefintechbuilder.com](https://thefintechbuilder.com)  ·  📚 **Library:** [https://thefintechbuilder.com/library/](https://thefintechbuilder.com/library/)
 
-📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.10.0, **271** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
+📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.11.0, **324** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
 
 ```bash
 npm install fintech-algorithms
@@ -155,9 +155,9 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 
 - 🟢 [Missing-Bar Gap Classifier](https://thefintechbuilder.com/market-data-engineering/data-quality/missing-bar-gap-classifier/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/missing-bar-gap-classifier") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Missing-Bar-Gap-Classifier-algorithm)  `D01-F04-A01`
 - 🟢 [Feed-Latency Monitor](https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/feed-latency-monitor") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Feed-Latency-Monitor-Data-Quality-algorithm)  `D01-F04-A02`
-- 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/price-source-consensus-check")  `D01-F04-A03`
-- 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/schema-drift-detector")  `D01-F04-A04`
-- 🟢 [Point-in-Time Availability Guard](https://thefintechbuilder.com/market-data-engineering/data-quality/point-in-time-availability-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/point-in-time-availability-guard")  `D01-F04-A05`
+- 🟢 [Price-Source Consensus Check](https://thefintechbuilder.com/market-data-engineering/data-quality/price-source-consensus-check/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/price-source-consensus-check") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Price-Source-Consensus-Check-Data-Quality-algorithm)  `D01-F04-A03`
+- 🟢 [Schema-Drift Detector](https://thefintechbuilder.com/market-data-engineering/data-quality/schema-drift-detector/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/schema-drift-detector") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Schema-Drift-Detector-Data-Quality-algorithm)  `D01-F04-A04`
+- 🟢 [Point-in-Time Availability Guard](https://thefintechbuilder.com/market-data-engineering/data-quality/point-in-time-availability-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/point-in-time-availability-guard") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Point-In-Time-Availability-Guard-Data-Quality-algorithm)  `D01-F04-A05`
 - ⚪ Provider Adjustment-Basis Drift Detector — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/market-data-engineering/data-quality/provider-adjustment-basis-drift-detector")  `D01-F04-A06`
 
 ### Order-Book Feed Engineering  `D01-F05`
@@ -402,60 +402,60 @@ _Quantify linear, nonlinear, dynamic, and tail relationships among financial var
 
 _Convert candlestick geometry and market context into precise, testable price-action events._
 
-**Domain page:** [thefintechbuilder.com/domains/price-action-and-candlesticks/](https://thefintechbuilder.com/domains/price-action-and-candlesticks/)  ·  **5** families  ·  **2/38** published  ·  **2/38** on npm
+**Domain page:** [thefintechbuilder.com/domains/price-action-and-candlesticks/](https://thefintechbuilder.com/domains/price-action-and-candlesticks/)  ·  **5** families  ·  **2/38** published  ·  **38/38** on npm
 
 ### Candle Foundations  `D06-F01`
 
 - 🟢 [Candle Anatomy](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/candle-anatomy/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/candle-anatomy")  `D06-F01-A01`
 - 🟢 [Scale-Aware Body Classification](https://thefintechbuilder.com/price-action-and-candlesticks/candle-foundations/scale-aware-body-classification/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/scale-aware-body-classification")  `D06-F01-A02`
-- ⚪ Shadow-to-Body Ratio  `D06-F01-A03`
-- ⚪ Gap Classification  `D06-F01-A04`
-- ⚪ Trend-Context Filter  `D06-F01-A05`
+- ⚪ Shadow-to-Body Ratio — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/shadow-to-body-ratio")  `D06-F01-A03`
+- ⚪ Gap Classification — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/gap-classification")  `D06-F01-A04`
+- ⚪ Trend-Context Filter — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candle-foundations/trend-context-filter")  `D06-F01-A05`
 
 ### Single-Candle Patterns  `D06-F02`
 
-- ⚪ Doji  `D06-F02-A01`
-- ⚪ Dragonfly Doji  `D06-F02-A02`
-- ⚪ Gravestone Doji  `D06-F02-A03`
-- ⚪ Marubozu  `D06-F02-A04`
-- ⚪ Spinning Top  `D06-F02-A05`
-- ⚪ Hammer  `D06-F02-A06`
-- ⚪ Hanging Man  `D06-F02-A07`
-- ⚪ Inverted Hammer  `D06-F02-A08`
-- ⚪ Shooting Star  `D06-F02-A09`
+- ⚪ Doji — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/doji")  `D06-F02-A01`
+- ⚪ Dragonfly Doji — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/dragonfly-doji")  `D06-F02-A02`
+- ⚪ Gravestone Doji — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/gravestone-doji")  `D06-F02-A03`
+- ⚪ Marubozu — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/marubozu")  `D06-F02-A04`
+- ⚪ Spinning Top — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/spinning-top")  `D06-F02-A05`
+- ⚪ Hammer — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/hammer")  `D06-F02-A06`
+- ⚪ Hanging Man — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/hanging-man")  `D06-F02-A07`
+- ⚪ Inverted Hammer — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/inverted-hammer")  `D06-F02-A08`
+- ⚪ Shooting Star — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/single-candle-patterns/shooting-star")  `D06-F02-A09`
 
 ### Two-Candle Patterns  `D06-F03`
 
-- ⚪ Bullish Engulfing  `D06-F03-A01`
-- ⚪ Bearish Engulfing  `D06-F03-A02`
-- ⚪ Bullish Harami  `D06-F03-A03`
-- ⚪ Bearish Harami  `D06-F03-A04`
-- ⚪ Piercing Line  `D06-F03-A05`
-- ⚪ Dark Cloud Cover  `D06-F03-A06`
-- ⚪ Tweezer Top  `D06-F03-A07`
-- ⚪ Tweezer Bottom  `D06-F03-A08`
+- ⚪ Bullish Engulfing — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/bullish-engulfing")  `D06-F03-A01`
+- ⚪ Bearish Engulfing — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/bearish-engulfing")  `D06-F03-A02`
+- ⚪ Bullish Harami — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/bullish-harami")  `D06-F03-A03`
+- ⚪ Bearish Harami — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/bearish-harami")  `D06-F03-A04`
+- ⚪ Piercing Line — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/piercing-line")  `D06-F03-A05`
+- ⚪ Dark Cloud Cover — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/dark-cloud-cover")  `D06-F03-A06`
+- ⚪ Tweezer Top — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/tweezer-top")  `D06-F03-A07`
+- ⚪ Tweezer Bottom — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/two-candle-patterns/tweezer-bottom")  `D06-F03-A08`
 
 ### Multi-Candle Patterns  `D06-F04`
 
-- ⚪ Morning Star  `D06-F04-A01`
-- ⚪ Evening Star  `D06-F04-A02`
-- ⚪ Three White Soldiers  `D06-F04-A03`
-- ⚪ Three Black Crows  `D06-F04-A04`
-- ⚪ Three Inside Up/Down  `D06-F04-A05`
-- ⚪ Three Outside Up/Down  `D06-F04-A06`
-- ⚪ Abandoned Baby  `D06-F04-A07`
+- ⚪ Morning Star — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/morning-star")  `D06-F04-A01`
+- ⚪ Evening Star — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/evening-star")  `D06-F04-A02`
+- ⚪ Three White Soldiers — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/three-white-soldiers")  `D06-F04-A03`
+- ⚪ Three Black Crows — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/three-black-crows")  `D06-F04-A04`
+- ⚪ Three Inside Up/Down — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/three-inside-up-down")  `D06-F04-A05`
+- ⚪ Three Outside Up/Down — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/three-outside-up-down")  `D06-F04-A06`
+- ⚪ Abandoned Baby — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/multi-candle-patterns/abandoned-baby")  `D06-F04-A07`
 
 ### Candlestick Scanning and Context  `D06-F05`
 
-- ⚪ Unified Candlestick Pattern Registry  `D06-F05-A01`
-- ⚪ Candlestick Pattern Occurrence Contract  `D06-F05-A02`
-- ⚪ Market-Wide Candlestick Pattern Scanner  `D06-F05-A03`
-- ⚪ Contextual Candlestick Confidence Score  `D06-F05-A04`
-- ⚪ Support/Resistance Pattern Context  `D06-F05-A05`
-- ⚪ Trend, Volatility, and Volume Pattern Context  `D06-F05-A06`
-- ⚪ Overlapping-Pattern Conflict Resolver  `D06-F05-A07`
-- ⚪ Candlestick Confirmation and Invalidation State Machine  `D06-F05-A08`
-- ⚪ Candlestick Scanner Ranking and Deduplication  `D06-F05-A09`
+- ⚪ Unified Candlestick Pattern Registry — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/unified-candlestick-pattern-registry")  `D06-F05-A01`
+- ⚪ Candlestick Pattern Occurrence Contract — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/candlestick-pattern-occurrence-contract")  `D06-F05-A02`
+- ⚪ Market-Wide Candlestick Pattern Scanner — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/market-wide-candlestick-pattern-scanner")  `D06-F05-A03`
+- ⚪ Contextual Candlestick Confidence Score — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/contextual-candlestick-confidence-score")  `D06-F05-A04`
+- ⚪ Support/Resistance Pattern Context — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/support-resistance-pattern-context")  `D06-F05-A05`
+- ⚪ Trend, Volatility, and Volume Pattern Context — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/trend-volatility-and-volume-pattern-context")  `D06-F05-A06`
+- ⚪ Overlapping-Pattern Conflict Resolver — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/overlapping-pattern-conflict-resolver")  `D06-F05-A07`
+- ⚪ Candlestick Confirmation and Invalidation State Machine — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/candlestick-confirmation-and-invalidation-state-machine")  `D06-F05-A08`
+- ⚪ Candlestick Scanner Ranking and Deduplication — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/price-action-and-candlesticks/candlestick-scanning-and-context/candlestick-scanner-ranking-and-deduplication")  `D06-F05-A09`
 
 ---
 
@@ -523,7 +523,7 @@ _Summarize trend, momentum, volatility, and volume through reproducible indicato
 
 _Detect recurring price structures with causal pivots, geometric rules, and statistical pattern matching._
 
-**Domain page:** [thefintechbuilder.com/domains/geometric-chart-patterns/](https://thefintechbuilder.com/domains/geometric-chart-patterns/)  ·  **6** families  ·  **0/37** published  ·  **10/37** on npm
+**Domain page:** [thefintechbuilder.com/domains/geometric-chart-patterns/](https://thefintechbuilder.com/domains/geometric-chart-patterns/)  ·  **6** families  ·  **0/37** published  ·  **27/37** on npm
 
 ### Pivots and Levels  `D08-F01`
 
@@ -559,26 +559,26 @@ _Detect recurring price structures with causal pivots, geometric rules, and stat
 
 ### Indicator Divergence Detection  `D08-F05`
 
-- ⚪ Price–Indicator Pivot Alignment  `D08-F05-A01`
-- ⚪ Regular Bullish/Bearish Divergence Detection  `D08-F05-A02`
-- ⚪ Hidden Bullish/Bearish Divergence Detection  `D08-F05-A03`
-- ⚪ Multi-Indicator Divergence Adapters  `D08-F05-A04`
-- ⚪ Divergence Strength and Quality Scoring  `D08-F05-A05`
-- ⚪ Divergence Confirmation and Invalidation State Machine  `D08-F05-A06`
-- ⚪ Multi-Indicator Divergence Confluence  `D08-F05-A07`
-- ⚪ Market-Wide Divergence Scanner and Ranking  `D08-F05-A08`
+- ⚪ Price–Indicator Pivot Alignment — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/price-indicator-pivot-alignment")  `D08-F05-A01`
+- ⚪ Regular Bullish/Bearish Divergence Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/regular-bullish-bearish-divergence-detection")  `D08-F05-A02`
+- ⚪ Hidden Bullish/Bearish Divergence Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/hidden-bullish-bearish-divergence-detection")  `D08-F05-A03`
+- ⚪ Multi-Indicator Divergence Adapters — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/multi-indicator-divergence-adapters")  `D08-F05-A04`
+- ⚪ Divergence Strength and Quality Scoring — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/divergence-strength-and-quality-scoring")  `D08-F05-A05`
+- ⚪ Divergence Confirmation and Invalidation State Machine — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/divergence-confirmation-and-invalidation-state-machine")  `D08-F05-A06`
+- ⚪ Multi-Indicator Divergence Confluence — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/multi-indicator-divergence-confluence")  `D08-F05-A07`
+- ⚪ Market-Wide Divergence Scanner and Ranking — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/indicator-divergence-detection/market-wide-divergence-scanner-and-ranking")  `D08-F05-A08`
 
 ### Level Confluence and Zone Scoring  `D08-F06`
 
-- ⚪ Price-by-Volume Profile Construction  `D08-F06-A01`
-- ⚪ Point of Control, Value Area, HVN, and LVN Detection  `D08-F06-A02`
-- ⚪ Fibonacci Retracement and Extension Projection  `D08-F06-A03`
-- ⚪ Psychological Round-Number Level Generation  `D08-F06-A04`
-- ⚪ Multi-Source Support/Resistance Zone Fusion  `D08-F06-A05`
-- ⚪ Support/Resistance Zone Strength and Decay Scoring  `D08-F06-A06`
-- ⚪ Support/Resistance Role-Reversal State Machine  `D08-F06-A07`
-- ⚪ Breakout and Retest Detection  `D08-F06-A08`
-- ⚪ Market-Wide Zone-Proximity Scanner and Ranking  `D08-F06-A09`
+- ⚪ Price-by-Volume Profile Construction — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/price-by-volume-profile-construction")  `D08-F06-A01`
+- ⚪ Point of Control, Value Area, HVN, and LVN Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/poc-value-area-hvn-lvn-detection")  `D08-F06-A02`
+- ⚪ Fibonacci Retracement and Extension Projection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/fibonacci-retracement-extension-projection")  `D08-F06-A03`
+- ⚪ Psychological Round-Number Level Generation — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/psychological-round-number-level-generation")  `D08-F06-A04`
+- ⚪ Multi-Source Support/Resistance Zone Fusion — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/multi-source-support-resistance-zone-fusion")  `D08-F06-A05`
+- ⚪ Support/Resistance Zone Strength and Decay Scoring — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/support-resistance-zone-strength-decay-scoring")  `D08-F06-A06`
+- ⚪ Support/Resistance Role-Reversal State Machine — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/support-resistance-role-reversal-state-machine")  `D08-F06-A07`
+- ⚪ Breakout and Retest Detection — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/breakout-and-retest-detection")  `D08-F06-A08`
+- ⚪ Market-Wide Zone-Proximity Scanner and Ranking — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/geometric-chart-patterns/level-confluence-and-zone-scoring/market-wide-zone-proximity-scanner-ranking")  `D08-F06-A09`
 
 ---
 
