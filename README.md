@@ -14,7 +14,7 @@
 
 🌐 **Website:** [thefintechbuilder.com](https://thefintechbuilder.com)  ·  📚 **Library:** [https://thefintechbuilder.com/library/](https://thefintechbuilder.com/library/)
 
-📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.11.0, **324** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
+📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.12.0, **324** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
 
 ```bash
 npm install fintech-algorithms
@@ -180,9 +180,9 @@ _Preserve instrument identity and create economically comparable histories acros
 
 ### Adjustment Factors  `D02-F01`
 
-- 🟢 [Backward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment")  `D02-F01-A01`
-- 🟢 [Forward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment")  `D02-F01-A02`
-- 🟢 [Cash-Dividend Total-Return Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment")  `D02-F01-A03`
+- 🟢 [Backward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/backward-split-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Backward-Split-Adjustment-Corporate-Actions-algorithm)  `D02-F01-A01`
+- 🟢 [Forward Split Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/forward-split-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Forward-Split-Adjustment-Corporate-Actions-algorithm)  `D02-F01-A02`
+- 🟢 [Cash-Dividend Total-Return Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/cash-dividend-total-return-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Cash-Dividend-Total-Return-Adjustment-Corporate-Actions-algorithm)  `D02-F01-A03`
 - 🟢 [CRSP Cumulative Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-price-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-price-adjustment")  `D02-F01-A04`
 - 🟢 [CRSP Cumulative Share/Volume Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-share-volume-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/adjustment-factors/crsp-cumulative-share-volume-adjustment")  `D02-F01-A05`
 
