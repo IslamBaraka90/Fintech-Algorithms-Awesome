@@ -5,9 +5,9 @@
 > **domain → family → algorithm**, from market-data engineering to fair-value measurement.
 
 <p>
-  <img alt="Domains" src="https://img.shields.io/badge/domains-49-2b6cb0">
-  <img alt="Families" src="https://img.shields.io/badge/families-248-2b6cb0">
-  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1399-2b6cb0">
+  <img alt="Domains" src="https://img.shields.io/badge/domains-50-2b6cb0">
+  <img alt="Families" src="https://img.shields.io/badge/families-260-2b6cb0">
+  <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1519-2b6cb0">
   <img alt="Published" src="https://img.shields.io/badge/published%20articles-103-brightgreen">
   <img alt="On npm" src="https://img.shields.io/badge/on%20npm-324-cb3837">
 </p>
@@ -57,6 +57,8 @@ myself and for anyone learning alongside me. **The journey never stops.** 🚀
 
 ## Contents
 
+- **Universal Foundations**
+  - [D00 — Financial Mathematics, Statistics, and Data Foundations](#d00--financial-mathematics-statistics-and-data-foundations)
 - **Market Data, Analysis, and Trading**
   - [D01 — Market Data Engineering](#d01--market-data-engineering)
   - [D02 — Corporate Actions and Security Master Data](#d02--corporate-actions-and-security-master-data)
@@ -113,6 +115,172 @@ myself and for anyone learning alongside me. **The journey never stops.** 🚀
   - [D48 — Fair Value Measurement and Valuation Control](#d48--fair-value-measurement-and-valuation-control)
 - **Financial Cybersecurity Engineering**
   - [D49 — Financial Cybersecurity Engineering](#d49--financial-cybersecurity-engineering)
+
+---
+
+# Universal Foundations
+
+## D00 — Financial Mathematics, Statistics, and Data Foundations
+
+_Build the quantitative language, financial intuition, statistical judgment, and implementation discipline required to understand, implement, test, and communicate every later FinTech method._
+
+**Domain page:** [thefintechbuilder.com/domains/financial-mathematics-statistics-and-data-foundations/](https://thefintechbuilder.com/domains/financial-mathematics-statistics-and-data-foundations/)  ·  **12** families  ·  **0/120** published  ·  **0/120** on npm
+
+### Mathematical Language and Quantitative Reasoning  `D00-F01`
+
+- ⚪ Variables, Constants, Expressions, and Equations  `D00-F01-A01`
+- ⚪ Functions, Domains, Ranges, and Graphs  `D00-F01-A02`
+- ⚪ Ratios, Proportions, Rates, and Percentages  `D00-F01-A03`
+- ⚪ Percentage Change, Percentage Points, and Basis Points  `D00-F01-A04`
+- ⚪ Exponents, Roots, and Logarithms  `D00-F01-A05`
+- ⚪ Summation, Products, and Index Notation  `D00-F01-A06`
+- ⚪ Linear Equations and Systems  `D00-F01-A07`
+- ⚪ Inequalities, Bounds, and Constraints  `D00-F01-A08`
+- ⚪ Units, Dimensions, Scale, and Normalization  `D00-F01-A09`
+- ⚪ Rounding, Precision, Tolerance, and Significant Digits  `D00-F01-A10`
+
+### Financial Arithmetic, Time Value, and Returns  `D00-F02`
+
+- ⚪ Simple Interest  `D00-F02-A01`
+- ⚪ Compound Interest  `D00-F02-A02`
+- ⚪ Present Value and Future Value  `D00-F02-A03`
+- ⚪ Discount Factors and Discount Rates  `D00-F02-A04`
+- ⚪ Cash-Flow Timelines and Net Present Value  `D00-F02-A05`
+- ⚪ Simple Return  `D00-F02-A06`
+- ⚪ Log Return  `D00-F02-A07`
+- ⚪ Holding-Period and Cumulative Return  `D00-F02-A08`
+- ⚪ Arithmetic versus Geometric Average Return  `D00-F02-A09`
+- ⚪ Return Annualization and Deannualization  `D00-F02-A10`
+
+### Data, Variables, Samples, and Measurement  `D00-F03`
+
+- ⚪ Observations, Entities, Variables, and Datasets  `D00-F03-A01`
+- ⚪ Numeric, Categorical, Ordinal, and Binary Variables  `D00-F03-A02`
+- ⚪ Population, Sample, Census, and Sampling Frame  `D00-F03-A03`
+- ⚪ Cross-Sectional, Time-Series, Panel, and Event Data  `D00-F03-A04`
+- ⚪ Identifiers, Keys, Joins, and Data Grain  `D00-F03-A05`
+- ⚪ Timestamps, Time Zones, Calendars, and Observation Time  `D00-F03-A06`
+- ⚪ Missing, Nonfinite, Censored, and Truncated Values  `D00-F03-A07`
+- ⚪ Measurement Error, Resolution, Accuracy, and Precision  `D00-F03-A08`
+- ⚪ Revisions, Vintages, and Point-in-Time Availability  `D00-F03-A09`
+- ⚪ Data Provenance, Lineage, Ownership, and Licensing  `D00-F03-A10`
+
+### Location, Ranking, and Exploratory Summaries  `D00-F04`
+
+- ⚪ Count, Sum, Minimum, Maximum, and Range  `D00-F04-A01`
+- ⚪ Arithmetic Mean  `D00-F04-A02`
+- ⚪ Weighted Mean  `D00-F04-A03`
+- ⚪ Median and Mode  `D00-F04-A04`
+- ⚪ Trimmed and Winsorized Means  `D00-F04-A05`
+- ⚪ Percentiles, Quantiles, and Quartiles  `D00-F04-A06`
+- ⚪ Ranks, Ties, and Percentile Rank  `D00-F04-A07`
+- ⚪ Frequency Tables and Relative Frequency  `D00-F04-A08`
+- ⚪ Histograms and Empirical Distribution Functions  `D00-F04-A09`
+- ⚪ Five-Number Summary and Box Plot  `D00-F04-A10`
+
+### Dispersion, Shape, and Robust Statistics  `D00-F05`
+
+- ⚪ Deviation, Absolute Deviation, and Squared Deviation  `D00-F05-A01`
+- ⚪ Range and Interquartile Range  `D00-F05-A02`
+- ⚪ Mean Absolute Deviation  `D00-F05-A03`
+- ⚪ Median Absolute Deviation  `D00-F05-A04`
+- ⚪ Population and Sample Variance  `D00-F05-A05`
+- ⚪ Population and Sample Standard Deviation  `D00-F05-A06`
+- ⚪ Coefficient of Variation and Scale Comparability  `D00-F05-A07`
+- ⚪ Z-Score, Robust Z-Score, and Standardization  `D00-F05-A08`
+- ⚪ Skewness and Tail Asymmetry  `D00-F05-A09`
+- ⚪ Kurtosis, Excess Kurtosis, and Tail Weight  `D00-F05-A10`
+
+### Probability and Random Variables  `D00-F06`
+
+- ⚪ Experiments, Outcomes, Sample Spaces, and Events  `D00-F06-A01`
+- ⚪ Probability Rules, Complements, Unions, and Intersections  `D00-F06-A02`
+- ⚪ Conditional Probability  `D00-F06-A03`
+- ⚪ Independence and Dependence  `D00-F06-A04`
+- ⚪ Bayes' Theorem and Base Rates  `D00-F06-A05`
+- ⚪ Discrete and Continuous Random Variables  `D00-F06-A06`
+- ⚪ Expected Value  `D00-F06-A07`
+- ⚪ Variance, Moments, and Moment-Generating Intuition  `D00-F06-A08`
+- ⚪ Joint, Marginal, and Conditional Distributions  `D00-F06-A09`
+- ⚪ Covariance and Correlation of Random Variables  `D00-F06-A10`
+
+### Probability Distributions and Simulation Basics  `D00-F07`
+
+- ⚪ PMF, PDF, CDF, Survival, and Quantile Functions  `D00-F07-A01`
+- ⚪ Bernoulli and Binomial Distributions  `D00-F07-A02`
+- ⚪ Poisson Distribution and Event Counts  `D00-F07-A03`
+- ⚪ Uniform Distribution and Random Sampling  `D00-F07-A04`
+- ⚪ Normal Distribution and Standard Normal  `D00-F07-A05`
+- ⚪ Lognormal Distribution and Positive Quantities  `D00-F07-A06`
+- ⚪ Student-t Distribution and Heavy Tails  `D00-F07-A07`
+- ⚪ Exponential, Gamma, and Weibull Waiting-Time Models  `D00-F07-A08`
+- ⚪ Mixture Distributions, Multimodality, and Fat Tails  `D00-F07-A09`
+- ⚪ Random Sampling and Monte Carlo Intuition  `D00-F07-A10`
+
+### Sampling, Estimation, and Statistical Inference  `D00-F08`
+
+- ⚪ Parameters, Statistics, Estimands, and Estimators  `D00-F08-A01`
+- ⚪ Sampling Distributions  `D00-F08-A02`
+- ⚪ Estimator Bias, Consistency, Efficiency, and Robustness  `D00-F08-A03`
+- ⚪ Law of Large Numbers  `D00-F08-A04`
+- ⚪ Central Limit Theorem  `D00-F08-A05`
+- ⚪ Standard Error  `D00-F08-A06`
+- ⚪ Confidence Intervals and Coverage  `D00-F08-A07`
+- ⚪ Null and Alternative Hypotheses  `D00-F08-A08`
+- ⚪ P-Values, Significance, Type I/II Errors, and Power  `D00-F08-A09`
+- ⚪ Effect Size, Practical Significance, and Multiple Comparisons  `D00-F08-A10`
+
+### Dependence, Regression, and Model Foundations  `D00-F09`
+
+- ⚪ Scatter Plots, Association, and Nonlinear Patterns  `D00-F09-A01`
+- ⚪ Sample Covariance Calculation and Interpretation  `D00-F09-A02`
+- ⚪ Pearson Correlation Calculation and Interpretation  `D00-F09-A03`
+- ⚪ Spearman Rank Correlation and Kendall Tau  `D00-F09-A04`
+- ⚪ Correlation, Causation, Confounding, and Spurious Relationships  `D00-F09-A05`
+- ⚪ Simple Ordinary Least Squares Regression  `D00-F09-A06`
+- ⚪ Intercepts, Slopes, Coefficients, and Predictions  `D00-F09-A07`
+- ⚪ Residuals, MAE, MSE, and RMSE  `D00-F09-A08`
+- ⚪ R-Squared and Adjusted R-Squared  `D00-F09-A09`
+- ⚪ Regression Assumptions, Heteroskedasticity, and Multicollinearity  `D00-F09-A10`
+
+### Financial Time-Series Foundations  `D00-F10`
+
+- ⚪ Time Order, Frequency, Regularity, and Financial Calendars  `D00-F10-A01`
+- ⚪ Levels, Changes, Differences, and Returns  `D00-F10-A02`
+- ⚪ Lags, Leads, and Temporal Dependence  `D00-F10-A03`
+- ⚪ Rolling and Expanding Windows  `D00-F10-A04`
+- ⚪ Resampling, Aggregation, and Time Alignment  `D00-F10-A05`
+- ⚪ Trend, Seasonality, Cycles, and Remainder  `D00-F10-A06`
+- ⚪ Autocovariance and Autocorrelation  `D00-F10-A07`
+- ⚪ Stationarity and Differencing Intuition  `D00-F10-A08`
+- ⚪ Smoothing, Baselines, and Naive Forecasts  `D00-F10-A09`
+- ⚪ Look-Ahead Leakage and Time-Aware Data Splits  `D00-F10-A10`
+
+### Financial Risk and Performance Statistics  `D00-F11`
+
+- ⚪ Volatility and Annualized Volatility  `D00-F11-A01`
+- ⚪ Downside Deviation and Target Shortfall  `D00-F11-A02`
+- ⚪ Drawdown and Maximum Drawdown  `D00-F11-A03`
+- ⚪ Loss Distributions and Loss Quantiles  `D00-F11-A04`
+- ⚪ Value at Risk Intuition  `D00-F11-A05`
+- ⚪ Expected Shortfall Intuition  `D00-F11-A06`
+- ⚪ Beta and Market-Relative Risk  `D00-F11-A07`
+- ⚪ Sharpe, Sortino, and Information Ratio Intuition  `D00-F11-A08`
+- ⚪ Active Return and Tracking Error  `D00-F11-A09`
+- ⚪ Covariance Matrices, Portfolio Variance, and Diversification  `D00-F11-A10`
+
+### Statistical Computing and Reproducibility  `D00-F12`
+
+- ⚪ Floating-Point Representation, Overflow, and Underflow  `D00-F12-A01`
+- ⚪ Stable Summation and Mean Calculation  `D00-F12-A02`
+- ⚪ Stable Online Variance and Welford's Algorithm  `D00-F12-A03`
+- ⚪ Batch, Rolling, and Streaming Statistic Equivalence  `D00-F12-A04`
+- ⚪ Missing, Infinite, Invalid, and Unsupported-State Policies  `D00-F12-A05`
+- ⚪ Pseudorandom Numbers, Seeds, and Reproducibility  `D00-F12-A06`
+- ⚪ Vectorization, Index Alignment, and Shape Safety  `D00-F12-A07`
+- ⚪ Leakage-Free Fitting, Scaling, and Preprocessing  `D00-F12-A08`
+- ⚪ Fixtures, Numerical Tolerances, and Property Tests  `D00-F12-A09`
+- ⚪ Reproducible Analysis, Metadata, and Audit Trails  `D00-F12-A10`
 
 ---
 
@@ -192,12 +360,12 @@ _Preserve instrument identity and create economically comparable histories acros
 - 🟢 [Spin-Off Price Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/spin-off-price-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/spin-off-price-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Spin-Off-Price-Adjustment-Corporate-Actions-algorithm)  `D02-F02-A02`
 - 🟢 [Stock-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/stock-dividend-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/stock-dividend-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Stock-Dividend-Adjustment-Corporate-Actions-algorithm)  `D02-F02-A03`
 - 🟢 [Special-Dividend Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/special-dividend-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/special-dividend-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Special-Dividend-Adjustment-Corporate-Actions-algorithm)  `D02-F02-A04`
-- 🟢 [Return-of-Capital Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment")  `D02-F02-A05`
+- 🟢 [Return-of-Capital Adjustment](https://thefintechbuilder.com/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/complex-distributions/return-of-capital-adjustment") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Return-Of-Capital-Adjustment-Corporate-Actions-algorithm)  `D02-F02-A05`
 
 ### Identity Continuity  `D02-F03`
 
-- 🟢 [Permanent Security Identifier Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping")  `D02-F03-A01`
-- 🟢 [Ticker-Change Chain Resolution](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution")  `D02-F03-A02`
+- 🟢 [Permanent Security Identifier Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/permanent-security-identifier-mapping") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Permanent-Security-Identifier-Mapping-Corporate-Actions-algorithm)  `D02-F03-A01`
+- 🟢 [Ticker-Change Chain Resolution](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/ticker-change-chain-resolution") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Ticker-Change-Chain-Resolution-Corporate-Actions-algorithm)  `D02-F03-A02`
 - 🟢 [Share-Class Relationship Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/share-class-relationship-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/share-class-relationship-mapping")  `D02-F03-A03`
 - 🟢 [Merger Predecessor/Successor Mapping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/merger-predecessor-successor-mapping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/merger-predecessor-successor-mapping")  `D02-F03-A04`
 - 🟢 [Delisting Return Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/identity-continuity/delisting-return-reconstruction/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/identity-continuity/delisting-return-reconstruction")  `D02-F03-A05`
