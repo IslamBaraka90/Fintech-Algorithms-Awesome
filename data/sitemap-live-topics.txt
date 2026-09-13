@@ -101,3 +101,4 @@ https://thefintechbuilder.com/earnings-and-per-share-analytics/earnings-and-shar
 https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/if-converted-convertible-preference-dilution/
 https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/treasury-share-method-for-options-warrants/
 https://thefintechbuilder.com/earnings-and-per-share-analytics/basic-and-diluted-eps/contingently-issuable-share-inclusion/
+https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/corporate-action-status-and-effective-date-reconciliation/

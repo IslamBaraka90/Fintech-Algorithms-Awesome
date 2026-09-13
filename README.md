@@ -8,13 +8,13 @@
   <img alt="Domains" src="https://img.shields.io/badge/domains-50-2b6cb0">
   <img alt="Families" src="https://img.shields.io/badge/families-273-2b6cb0">
   <img alt="Algorithms" src="https://img.shields.io/badge/algorithms-1720-2b6cb0">
-  <img alt="Published" src="https://img.shields.io/badge/published%20articles-103-brightgreen">
-  <img alt="On npm" src="https://img.shields.io/badge/on%20npm-675-cb3837">
+  <img alt="Published" src="https://img.shields.io/badge/published%20articles-104-brightgreen">
+  <img alt="On npm" src="https://img.shields.io/badge/on%20npm-697-cb3837">
 </p>
 
 🌐 **Website:** [thefintechbuilder.com](https://thefintechbuilder.com)  ·  📚 **Library:** [https://thefintechbuilder.com/library/](https://thefintechbuilder.com/library/)
 
-📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.13.0, **675** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
+📥 **Install the whole library:** [`fintech-algorithms`](https://www.npmjs.com/package/fintech-algorithms) (v0.13.1, **697** algorithms) · [source](https://github.com/IslamBaraka90/Fintech-Algorithms-Library)
 
 ```bash
 npm install fintech-algorithms
@@ -344,7 +344,7 @@ _Transform raw trades, quotes, and reference feeds into trustworthy, analysis-re
 
 _Preserve instrument identity and create economically comparable histories across corporate events._
 
-**Domain page:** [thefintechbuilder.com/domains/corporate-actions-and-security-master-data/](https://thefintechbuilder.com/domains/corporate-actions-and-security-master-data/)  ·  **4** families  ·  **19/20** published  ·  **20/20** on npm
+**Domain page:** [thefintechbuilder.com/domains/corporate-actions-and-security-master-data/](https://thefintechbuilder.com/domains/corporate-actions-and-security-master-data/)  ·  **4** families  ·  **20/20** published  ·  **20/20** on npm
 
 ### Adjustment Factors  `D02-F01`
 
@@ -372,11 +372,11 @@ _Preserve instrument identity and create economically comparable histories acros
 
 ### Point-in-Time Universe  `D02-F04`
 
-- 🟢 [Historical Constituent Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction")  `D02-F04-A01`
-- 🟢 [Survivorship-Bias Guard](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard")  `D02-F04-A02`
-- 🟢 [IPO Availability Timestamping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping")  `D02-F04-A03`
-- 🟢 [Filing-Revision Versioning](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning")  `D02-F04-A04`
-- ⚪ Corporate-Action Status and Effective-Date Reconciliation — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/corporate-action-status-and-effective-date-reconciliation")  `D02-F04-A05`
+- 🟢 [Historical Constituent Reconstruction](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/historical-constituent-reconstruction") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Historical-Constituent-Reconstruction-Corporate-Actions-algorithm)  `D02-F04-A01`
+- 🟢 [Survivorship-Bias Guard](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/survivorship-bias-guard") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Survivorship-Bias-Guard-Corporate-Actions-algorithm)  `D02-F04-A02`
+- 🟢 [IPO Availability Timestamping](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/ipo-availability-timestamping") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-IPO-Availability-Timestamping-Corporate-Actions-algorithm)  `D02-F04-A03`
+- 🟢 [Filing-Revision Versioning](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/filing-revision-versioning") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Filing-Revision-Versioning-Corporate-Actions-algorithm)  `D02-F04-A04`
+- 🟢 [Corporate-Action Status and Effective-Date Reconciliation](https://thefintechbuilder.com/corporate-actions-and-security-master-data/point-in-time-universe/corporate-action-status-and-effective-date-reconciliation/) — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/corporate-actions-and-security-master-data/point-in-time-universe/corporate-action-status-and-effective-date-reconciliation") · 📦 [repo](https://github.com/IslamBaraka90/Fintech-Corporate-Action-Status-Effective-Date-Reconciliation-Corporate-Actions-algorithm)  `D02-F04-A05`
 
 ---
 
@@ -1017,41 +1017,41 @@ _Diagnose, model, decompose, and forecast financial sequences while respecting t
 
 _Estimate changing dispersion and co-movement using historical, realized, conditional, and shrinkage methods._
 
-**Domain page:** [thefintechbuilder.com/domains/volatility-and-covariance/](https://thefintechbuilder.com/domains/volatility-and-covariance/)  ·  **4** families  ·  **0/22** published  ·  **0/22** on npm
+**Domain page:** [thefintechbuilder.com/domains/volatility-and-covariance/](https://thefintechbuilder.com/domains/volatility-and-covariance/)  ·  **4** families  ·  **0/22** published  ·  **22/22** on npm
 
 ### Historical Estimators  `D10-F01`
 
-- ⚪ Close-to-Close Volatility  `D10-F01-A01`
-- ⚪ Parkinson Volatility  `D10-F01-A02`
-- ⚪ Garman-Klass Volatility  `D10-F01-A03`
-- ⚪ Rogers-Satchell Volatility  `D10-F01-A04`
-- ⚪ Yang-Zhang Volatility  `D10-F01-A05`
+- ⚪ Close-to-Close Volatility — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/historical-estimators/close-to-close-volatility")  `D10-F01-A01`
+- ⚪ Parkinson Volatility — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/historical-estimators/parkinson-volatility")  `D10-F01-A02`
+- ⚪ Garman-Klass Volatility — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/historical-estimators/garman-klass-volatility")  `D10-F01-A03`
+- ⚪ Rogers-Satchell Volatility — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/historical-estimators/rogers-satchell-volatility")  `D10-F01-A04`
+- ⚪ Yang-Zhang Volatility — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/historical-estimators/yang-zhang-volatility")  `D10-F01-A05`
 
 ### Realized Measures  `D10-F02`
 
-- ⚪ Realized Variance  `D10-F02-A01`
-- ⚪ Realized Covariance  `D10-F02-A02`
-- ⚪ Bipower Variation  `D10-F02-A03`
-- ⚪ Jump-Variation Detector  `D10-F02-A04`
-- ⚪ Realized Kernel  `D10-F02-A05`
+- ⚪ Realized Variance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/realized-measures/realized-variance")  `D10-F02-A01`
+- ⚪ Realized Covariance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/realized-measures/realized-covariance")  `D10-F02-A02`
+- ⚪ Bipower Variation — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/realized-measures/bipower-variation")  `D10-F02-A03`
+- ⚪ Jump-Variation Detector — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/realized-measures/jump-variation-detector")  `D10-F02-A04`
+- ⚪ Realized Kernel — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/realized-measures/realized-kernel")  `D10-F02-A05`
 
 ### Conditional Volatility  `D10-F03`
 
-- ⚪ ARCH  `D10-F03-A01`
-- ⚪ GARCH  `D10-F03-A02`
-- ⚪ EGARCH  `D10-F03-A03`
-- ⚪ GJR-GARCH  `D10-F03-A04`
-- ⚪ FIGARCH  `D10-F03-A05`
-- ⚪ HAR-RV  `D10-F03-A06`
+- ⚪ ARCH — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/arch")  `D10-F03-A01`
+- ⚪ GARCH — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/garch")  `D10-F03-A02`
+- ⚪ EGARCH — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/egarch")  `D10-F03-A03`
+- ⚪ GJR-GARCH — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/gjr-garch")  `D10-F03-A04`
+- ⚪ FIGARCH — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/figarch")  `D10-F03-A05`
+- ⚪ HAR-RV — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/conditional-volatility/har-rv")  `D10-F03-A06`
 
 ### Covariance Estimation  `D10-F04`
 
-- ⚪ Sample Covariance  `D10-F04-A01`
-- ⚪ EWMA Covariance  `D10-F04-A02`
-- ⚪ Ledoit-Wolf Shrinkage  `D10-F04-A03`
-- ⚪ Oracle Approximating Shrinkage  `D10-F04-A04`
-- ⚪ Factor-Model Covariance  `D10-F04-A05`
-- ⚪ Graphical-Lasso Covariance  `D10-F04-A06`
+- ⚪ Sample Covariance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/sample-covariance")  `D10-F04-A01`
+- ⚪ EWMA Covariance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/ewma-covariance")  `D10-F04-A02`
+- ⚪ Ledoit-Wolf Shrinkage — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/ledoit-wolf-shrinkage")  `D10-F04-A03`
+- ⚪ Oracle Approximating Shrinkage — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/oracle-approximating-shrinkage")  `D10-F04-A04`
+- ⚪ Factor-Model Covariance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/factor-model-covariance")  `D10-F04-A05`
+- ⚪ Graphical-Lasso Covariance — 📥 [npm](https://www.npmjs.com/package/fintech-algorithms "import from fintech-algorithms/volatility-and-covariance/covariance-estimation/graphical-lasso-covariance")  `D10-F04-A06`
 
 ---
 
